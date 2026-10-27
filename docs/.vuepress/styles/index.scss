@@ -1,0 +1,193 @@
+// Brand: Cequra orange (#ff4d00), stepped darker for readable link text on white.
+// Change the accent here and every link, button and active sidebar item follows.
+:root {
+  --vp-c-accent: #c2410c;
+  --vp-c-accent-bg: #d84500;
+  --vp-c-accent-hover: #9a3412;
+  --vp-c-accent-soft: rgba(255, 77, 0, 0.1);
+
+  --report-card-bg: #ffffff;
+  --report-card-border: rgba(11, 11, 11, 0.1);
+  --report-card-shadow: 0 1px 2px rgba(11, 11, 11, 0.06);
+  --report-muted: #5f5e5a;
+}
+
+[data-theme='dark'] {
+  --vp-c-accent: #ff7a3d;
+  --vp-c-accent-bg: #e04800;
+  --vp-c-accent-hover: #ff9a66;
+  --vp-c-accent-soft: rgba(255, 122, 61, 0.16);
+
+  --report-card-bg: #1f1f1e;
+  --report-card-border: rgba(255, 255, 255, 0.1);
+  --report-card-shadow: none;
+  --report-muted: #b5b4ac;
+}
+
+// The Cequra logo is a wide wordmark: keep it slimmer than the theme's square-logo default.
+.vp-site-logo {
+  height: 1.35rem !important;
+  margin-right: 0.6rem !important;
+}
+
+// ── Home page report cards ────────────────────────────────────────────────
+.report-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.report-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--report-card-border);
+  border-radius: 10px;
+  background: var(--report-card-bg);
+  box-shadow: var(--report-card-shadow);
+  color: inherit;
+  transition: border-color 0.15s, transform 0.15s;
+
+  // The whole card is one link; only the call-to-action should look like one.
+  &,
+  & * {
+    text-decoration: none !important;
+  }
+
+  &:hover {
+    border-color: var(--vp-c-accent);
+    transform: translateY(-2px);
+    text-decoration: none !important;
+  }
+
+  &__meta,
+  &__period {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--report-muted);
+  }
+
+  &__label {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--vp-c-accent);
+  }
+
+  &__title {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 1.2rem;
+    line-height: 1.35;
+  }
+
+  &__summary {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--report-muted);
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin: 0.25rem 0 0;
+
+    dt {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    dd {
+      margin: 0;
+      font-size: 0.78rem;
+      color: var(--report-muted);
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: auto;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  &__tag {
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    background: var(--vp-c-accent-soft);
+    font-size: 0.75rem;
+  }
+
+  &__cta {
+    font-weight: 600;
+    color: var(--vp-c-accent);
+  }
+}
+
+// ── Report pages ──────────────────────────────────────────────────────────
+// Wide analysis figures: full width, click to zoom (medium-zoom is built into the theme).
+.vp-doc img,
+.theme-default-content img {
+  display: block;
+  max-width: 100%;
+  margin: 0.5rem auto;
+  border: 1px solid var(--report-card-border);
+  border-radius: 6px;
+}
+
+// Key-number strip used on each report's Summary page.
+.key-numbers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+
+  > div {
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--report-card-border);
+    border-radius: 8px;
+    background: var(--report-card-bg);
+  }
+
+  strong {
+    display: block;
+    font-size: 1.45rem;
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: var(--report-muted);
+  }
+}
+
+.report-byline {
+  margin-top: -0.5rem;
+  font-size: 0.9rem;
+  color: var(--report-muted);
+}
+
+.figure-caption--left {
+  margin-top: -0.5rem !important;
+  text-align: left !important;
+}
+
+.figure-caption {
+  margin-top: -0.25rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--report-muted);
+}

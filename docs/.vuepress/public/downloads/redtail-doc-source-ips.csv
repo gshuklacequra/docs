@@ -1,0 +1,763 @@
+source_ip,country,asn_org,honeypots,visits,alerts,first_seen_utc,last_seen_utc,playbooks,behaviour_across_honeypots,per_honeypot
+101.36.104.242,CN,,8,15,238,2025-11-17 00:21:21.304000+00:00,2026-09-02 21:27:08.850000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×2; Electric vehicle charging process #2: Single ×2; SCADA DNP3 S7 SERVER #2: Kit A ×3; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1; Cobham-decoy #1: Kit A ×2; Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×3
+103.40.61.98,IN,Gleam Worldwide Services Pvt Ltd.,7,13,230,2025-11-28 02:55:41.482000+00:00,2026-04-19 14:12:53.481000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1; Industrial Control Systems #2: Kit A ×1; SCADA DNP3 S7 SERVER #2: Kit A ×4; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×4; Cobham-decoy #1: Kit A ×1
+45.43.37.254,TW,UCloud (HK) Holdings Group Limited,6,7,77,2026-01-21 20:37:04.454000+00:00,2026-10-15 05:03:17.942000+00:00,"Kit B, Single, Partial",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Partial ×1; Port-Authority-Gateway-Decoy #2: Partial ×2; seatel-vsat-satcom-Bahrain: Kit B ×1; Malware Collection Type 2: Single ×1
+110.35.80.116,ID,PT. NAP Info Lintas Nusa,5,13,286,2026-04-19 22:55:41.927000+00:00,2026-08-21 00:39:34.939000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Cobham-decoy #1: Kit A ×5; Port-Authority-Gateway-Decoy #2: Kit A ×2; Cobham-decoy #2: Kit A ×4; seatel-vsat-satcom-Bahrain: Kit A ×1
+115.248.8.65,IN,Reliance Communications Ltd.DAKC MUMBAI,5,7,100,2025-10-05 04:15:01.132000+00:00,2026-07-31 01:03:48.421000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×2; Electric vehicle charging process #2: Single ×1; Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×2; Cobham-decoy #2: Kit A ×1
+31.132.90.3,KZ,Kar-Tel LLC,4,18,394,2026-06-11 01:56:06.936000+00:00,2026-09-21 21:14:36.160000+00:00,"Kit A, Partial",same playbook on every honeypot,Cobham-decoy #1: Kit A ×2; Port-Authority-Gateway-Decoy #2: Kit A ×3; Cobham-decoy #2: Kit A ×9; seatel-vsat-satcom-Bahrain: Kit A ×4
+101.47.8.187,CN,"Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",4,12,264,2026-05-12 03:14:28.289000+00:00,2026-08-22 20:42:24.449000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×4; Port-Authority-Gateway-Decoy #2: Kit A ×2; Cobham-decoy #2: Kit A ×4; seatel-vsat-satcom-Bahrain: Kit A ×2
+101.36.107.228,CN,,4,7,60,2025-10-29 06:30:50.502000+00:00,2026-02-02 00:56:44.851000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×2; Electric vehicle charging process #2: Single ×2; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×2
+79.76.58.113,SE,Oracle Corporation,4,6,132,2026-04-17 11:42:48.914000+00:00,2026-06-29 00:18:12.205000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Cobham-decoy #1: Kit A ×3; Port-Authority-Gateway-Decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1
+107.155.48.46,US,UCloud (HK) Holdings Group Limited,4,5,106,2026-06-18 05:41:08.803000+00:00,2026-10-16 01:33:06.485000+00:00,"Kit A, Partial",same playbook (some runs partial),Cobham-decoy #1: Kit A ×2; Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Partial ×1; seatel-vsat-satcom-Bahrain: Partial ×1
+118.26.111.107,CN,,4,5,110,2026-06-11 10:28:34.274000+00:00,2026-08-17 12:42:49.237000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×2; Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Kit A ×1
+118.70.178.158,VN,The Corporation for Financing & Promoting Technology,4,5,40,2025-09-03 21:08:45.818000+00:00,2026-08-28 21:09:47.139000+00:00,"Kit A, Single, Partial",playbook differs by honeypot,IT Services with POP3: Single ×1; seatel-vsat-satcom: Partial ×2; Cobham-decoy #1: Kit A ×1; Cobham-decoy #2: Partial ×1
+61.245.11.87,JP,Softbank BB Corp.,4,5,35,2025-11-14 09:36:17.042000+00:00,2026-02-04 03:06:18.476000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×2; Electric vehicle charging process #2: Single ×1; SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+156.245.248.226,HK,DXTL Tseung Kwan O Service,4,4,22,2025-09-16 10:06:30.877000+00:00,2026-01-21 19:12:04.958000+00:00,"Single, Partial",same playbook (some runs partial),IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1; SCADA DNP3 S7 SERVER #2: Single ×1; seatel-vsat-satcom: Partial ×1
+185.38.148.2,GB,Hydra Communications Ltd,3,11,242,2026-04-16 21:05:15.780000+00:00,2026-06-11 21:50:55.307000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Cobham-decoy #1: Kit A ×6; Port-Authority-Gateway-Decoy #2: Kit A ×4
+38.211.193.130,US,Cogent Communications,3,8,50,2025-08-09 03:36:40.591000+00:00,2025-09-20 21:49:51.627000+00:00,"Kit A, Single",playbook differs by honeypot,IT Services with IMAP: Kit A ×1; IT Services with POP3: Single ×3; Electric vehicle charging process #1: Single ×4
+115.191.32.57,CN,Computer Network Information Center,3,6,112,2026-05-28 23:10:52.171000+00:00,2026-10-18 13:33:04.671000+00:00,"Kit A, Partial",same playbook (some runs partial),Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×2; seatel-vsat-satcom-Bahrain: Partial ×3
+141.255.164.26,CH,Private Layer INC,3,5,58,2025-10-21 06:22:47.433000+00:00,2025-12-19 22:53:09.103000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×2; Industrial Control Systems #2: Kit A ×2
+163.7.1.156,NZ,NZ Forest Research Institute Ltd,3,5,110,2026-04-16 07:54:48.189000+00:00,2026-09-12 11:32:24.906000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×3
+216.108.237.50,US,Las Vegas NV Datacenter,3,5,86,2026-01-10 23:18:27.238000+00:00,2026-01-25 13:19:32.535000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×3
+82.165.66.87,DE,1&1 Ionos Se,3,5,66,2026-01-25 14:29:56.657000+00:00,2026-02-09 00:37:06.770000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×2; seatel-vsat-satcom: Kit A ×2
+89.126.211.166,UZ,Uzbektelekom Joint Stock Company,3,5,111,2026-07-29 23:48:24.503000+00:00,2026-09-20 23:39:52.972000+00:00,"Kit A, Kit B, Partial",playbook differs by honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×2; Cobham-decoy #2: Kit A ×2; seatel-vsat-satcom-Bahrain: Kit B ×1
+95.173.161.147,TR,Netinternet Bilisim Teknolojileri AS,3,5,110,2026-05-19 03:19:41.776000+00:00,2026-09-17 00:50:24.871000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×3
+125.17.108.32,IN,BHARTI Airtel Ltd.,3,4,14,2025-09-16 18:26:15.681000+00:00,2026-01-10 22:46:56.238000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×2; Electric vehicle charging process #2: Single ×1; Electric-Vehicle-Charging-System: Single ×1
+197.220.93.117,SO,,3,4,36,2025-08-08 08:05:06.936000+00:00,2025-09-18 09:51:54.576000+00:00,"Kit A, Single",playbook differs by honeypot,IT Services with IMAP: Kit A ×1; IT Services with POP3: Single ×2; Electric vehicle charging process #1: Single ×1
+198.98.53.110,US,FranTech Solutions,3,4,36,2025-09-01 07:17:02.955000+00:00,2025-11-28 11:21:05.177000+00:00,"Single, Partial",same playbook (some runs partial),IT Services with POP3: Single ×1; Electric vehicle charging process #2: Single ×2; Industrial Control Systems #2: Partial ×1
+88.151.33.203,NL,Netexpo Internet B.V.,3,4,88,2026-01-04 21:02:19.312000+00:00,2026-08-23 02:34:14.925000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×2; Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Kit A ×1
+109.123.239.165,CZ,Casablanca INT,3,3,34,2025-10-23 09:12:13.368000+00:00,2025-10-26 17:33:40.058000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1; SCADA DNP3 S7 SERVER #1: Kit A ×1
+116.99.49.208,VN,Viettel Group,3,3,64,2026-06-20 01:18:33.098000+00:00,2026-08-26 04:01:58.468000+00:00,"Kit A, Partial",same playbook (some runs partial),Scada Historian Database: Kit A ×1; Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Partial ×1
+118.194.235.105,CN,,3,3,28,2025-11-28 18:55:49.065000+00:00,2026-08-04 02:14:02.035000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×1; Port-Authority-Gateway-Decoy #2: Single ×1; Cobham-decoy #2: Kit A ×1
+125.20.210.182,IN,BHARTI Airtel Ltd.,3,3,66,2026-06-01 01:04:38.452000+00:00,2026-07-11 12:37:35.404000+00:00,Kit A,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1; Scada Historian Database: Kit A ×1; Cobham-decoy #2: Kit A ×1
+128.199.103.139,SG,"DigitalOcean, LLC",3,3,32,2025-11-22 17:10:00.810000+00:00,2026-02-01 18:08:03.224000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #2: Single ×1; Industrial Control Systems #1: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+148.66.142.9,SG,"GoDaddy.com, LLC",3,3,6,2026-06-25 05:42:19.892000+00:00,2026-09-04 15:08:13.612000+00:00,Single,same playbook on every honeypot,Cobham-decoy #1: Single ×1; Port-Authority-Gateway-Decoy #2: Single ×1; Cobham-decoy #2: Single ×1
+185.182.186.243,FR,Contabo GmbH,3,3,66,2026-06-24 12:01:51.788000+00:00,2026-06-26 02:58:06.842000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×1
+192.210.160.141,US,ColoCrossing,3,3,12,2025-09-27 11:07:05.092000+00:00,2025-10-16 21:46:19.832000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+195.40.154.8,GB,EASYNET Easynet Global Services,3,3,46,2026-01-07 14:15:26.914000+00:00,2026-01-12 07:26:53.800000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+209.99.190.174,CH,SKN Subnet & Telecom Ltd,3,3,67,2026-07-20 22:19:10.861000+00:00,2026-10-08 08:12:45.482000+00:00,"Kit A, Kit B, Single",playbook differs by honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Single ×1
+43.128.81.242,JP,,3,3,46,2026-01-24 03:15:42.653000+00:00,2026-07-06 21:47:42.265000+00:00,"Kit A, Single",playbook differs by honeypot,seatel-vsat-satcom: Single ×1; Cobham-decoy #1: Kit A ×1; Cobham-decoy #2: Kit A ×1
+43.252.231.122,HK,Cloudie Limited,3,3,10,2025-10-31 23:40:15.651000+00:00,2026-01-31 16:15:36.298000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1; Electric-Vehicle-Charging-System: Single ×1
+62.171.164.240,GB,RM Education Ltd,3,3,46,2026-01-18 01:53:46.154000+00:00,2026-01-31 06:28:27.272000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+223.85.251.55,CN,"China Mobile Communications Group Co., Ltd.",2,6,96,2026-07-10 09:29:29.081000+00:00,2026-09-06 22:06:33.051000+00:00,"Kit A, Partial",same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×2; Cobham-decoy #2: Kit A ×4
+101.36.108.167,CN,,2,4,16,2025-11-18 03:17:55.473000+00:00,2025-11-29 08:12:22.234000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×2; Electric vehicle charging process #2: Single ×2
+111.119.234.186,IN,Syscon Infoway Pvt. Ltd.,2,4,12,2025-08-10 14:44:44.438000+00:00,2025-08-22 14:19:36.605000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×2; Electric vehicle charging process #1: Single ×2
+152.32.226.205,RU,UCloud (HK) Holdings Group Limited,2,4,88,2026-05-17 14:38:44.284000+00:00,2026-05-26 17:03:29.670000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×3
+160.250.132.238,,,2,4,172,2026-09-11 18:30:53.603000+00:00,2026-10-07 08:53:19.061000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×2; seatel-vsat-satcom-Bahrain: Kit B ×2
+103.118.28.17,TW,,2,3,66,2026-05-10 10:53:46.789000+00:00,2026-05-15 23:33:24.760000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×2; Port-Authority-Gateway-Decoy #2: Kit A ×1
+103.232.121.71,VN,Viet Solutions Services Trading Company Limited,2,3,66,2026-01-14 03:19:57.970000+00:00,2026-02-05 18:04:53.420000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; seatel-vsat-satcom: Kit A ×2
+103.46.186.148,,,2,3,129,2026-09-06 13:45:34.306000+00:00,2026-10-09 16:43:18.732000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×2; seatel-vsat-satcom-Bahrain: Kit B ×1
+103.63.101.24,IN,,2,3,129,2026-07-23 23:00:23.401000+00:00,2026-09-25 14:31:32.152000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×2
+119.8.169.21,SG,,2,3,12,2025-09-09 07:07:38.607000+00:00,2025-09-11 07:07:37.202000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×2; Electric vehicle charging process #1: Single ×1
+120.241.79.66,CN,China Mobile communications corporation,2,3,42,2026-04-17 19:21:34.222000+00:00,2026-04-25 21:02:30.401000+00:00,"Single, Partial",same playbook (some runs partial),Industrial Control Systems #2: Partial ×1; SCADA DNP3 S7 SERVER #2: Single ×2
+157.173.199.44,GB,,2,3,46,2026-01-30 20:00:58.044000+00:00,2026-02-09 06:17:26.148000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×2
+165.154.231.140,CA,Interhop Network SERVICES Inc.,2,3,28,2025-12-06 01:36:15.492000+00:00,2025-12-14 18:48:01.715000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #2: Single ×2; SCADA DNP3 S7 SERVER #2: Kit A ×1
+186.182.105.49,PY,Techtel LMDS Comunicaciones Interactivas S.A.,2,3,129,2026-10-07 19:07:31.793000+00:00,2026-10-14 13:02:54.959000+00:00,Kit B,same playbook on every honeypot,Cobham-decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×2
+189.51.43.54,,,2,3,66,2026-05-19 01:24:43.040000+00:00,2026-06-13 09:58:13.816000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×2; Port-Authority-Gateway-Decoy #2: Kit A ×1
+193.233.74.227,NL,Webzilla B.V.,2,3,26,2026-06-20 12:58:26.329000+00:00,2026-07-01 23:44:59.252000+00:00,"Single, Partial",same playbook (some runs partial),SCADA DNP3 S7 SERVER #2: Partial ×1; Cobham-decoy #1: Single ×2
+207.180.211.42,DE,Contabo GmbH,2,3,12,2025-09-18 21:53:29.938000+00:00,2025-09-24 13:03:03.473000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×2
+209.99.187.10,US,Tutis Web Services,2,3,10,2026-08-22 16:10:40.542000+00:00,2026-10-11 11:29:17.619000+00:00,"Single, Partial",same playbook (some runs partial),seatel-vsat-satcom-Bahrain: Partial ×2; Malware Collection Type 2: Single ×1
+38.55.16.34,US,Cogent Communications,2,3,46,2026-01-09 13:24:19.945000+00:00,2026-01-15 18:51:24.667000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×2
+41.75.114.30,MW,SKYBAND,2,3,66,2026-05-05 10:45:12.769000+00:00,2026-06-30 04:39:25.176000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×2; Cobham-decoy #2: Kit A ×1
+94.72.116.78,PL,ECO TRADE Sp. z o. o,2,3,46,2026-01-19 14:06:00.199000+00:00,2026-02-03 12:04:16.166000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×2
+1.178.38.103,AU,iseek Communications Pty Ltd,2,2,24,2026-01-15 16:56:37.257000+00:00,2026-01-19 06:06:52.387000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+101.126.86.90,CN,China Networks Inter-Exchange,2,2,5,2025-12-07 01:13:15.007000+00:00,2026-01-09 03:30:44.192000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #2: Single ×1; Electric-Vehicle-Charging-System: Single ×1
+101.36.123.102,CN,,2,2,8,2025-09-21 01:37:30.426000+00:00,2025-10-17 00:18:56.380000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+101.47.158.137,CN,"Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",2,2,24,2026-05-14 18:45:21.739000+00:00,2026-05-25 01:23:29.285000+00:00,"Kit A, Single",playbook differs by honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Single ×1
+103.100.211.174,HK,HK Kwaifong Group Limited,2,2,8,2025-10-05 15:59:23.539000+00:00,2025-10-24 02:30:37.159000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+103.142.62.35,ID,Institut Agama Islam Negeri Pekalongan,2,2,36,2026-01-24 19:27:19.013000+00:00,2026-01-25 19:41:42.284000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; seatel-vsat-satcom: Kit A ×1
+103.143.11.203,HK,Gigabitbank Global,2,2,8,2025-11-16 04:23:35.720000+00:00,2025-11-17 09:56:25.526000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+103.195.236.35,VN,CMC Telecom Infrastructure Company,2,2,44,2026-05-21 09:07:03.916000+00:00,2026-05-21 18:23:50.311000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1
+103.207.99.1,ID,PT Jaya Kartha Solusindo,2,2,46,2025-12-07 18:32:26.834000+00:00,2026-01-14 03:35:02.373000+00:00,Kit A,same playbook on every honeypot,Industrial Control Systems #2: Kit A ×1; SCADA DNP3 S7 SERVER #2: Kit A ×1
+103.214.5.133,NL,Hostslim Ou,2,2,24,2026-07-10 08:43:10.753000+00:00,2026-10-10 15:28:28.025000+00:00,"Kit A, Single",playbook differs by honeypot,Cobham-decoy #2: Kit A ×1; Malware Collection Type 2: Single ×1
+103.46.186.85,,,2,2,86,2026-09-11 21:22:26.632000+00:00,2026-09-21 00:12:21.600000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+104.223.84.233,CA,HostPapa,2,2,44,2026-07-21 02:29:15.530000+00:00,2026-07-25 17:20:29.036000+00:00,Kit A,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×1
+107.150.101.17,US,UCloud (HK) Holdings Group Limited,2,2,8,2025-10-22 22:58:37.155000+00:00,2025-10-23 18:07:13.889000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+114.111.54.188,KR,CDNetworks,2,2,32,2026-01-15 13:13:50.508000+00:00,2026-02-27 04:48:22.431000+00:00,Partial,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1; seatel-vsat-satcom: Partial ×1
+115.190.108.231,CN,Computer Network Information Center,2,2,8,2025-11-20 07:49:49.740000+00:00,2025-11-23 12:50:05.377000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+117.164.191.217,CN,Guangdong Mobile Communication Co.Ltd.,2,2,44,2026-05-13 03:28:55.541000+00:00,2026-07-20 00:57:19.714000+00:00,Kit A,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×1
+118.196.56.74,CN,"Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",2,2,44,2026-05-16 05:53:27.674000+00:00,2026-07-29 16:52:50.180000+00:00,Kit A,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1; Cobham-decoy #2: Kit A ×1
+123.253.22.30,MM,,2,2,8,2025-11-17 07:04:23.392000+00:00,2025-11-23 14:14:23.983000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+123.58.212.18,CN,,2,2,8,2025-10-10 14:54:08.190000+00:00,2025-10-22 00:32:41.935000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+130.61.28.82,DE,Oracle Corporation,2,2,23,2026-01-25 12:04:33.002000+00:00,2026-01-27 16:03:56.872000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+134.65.30.157,US,,2,2,24,2026-01-19 23:46:50.799000+00:00,2026-01-30 18:44:48.189000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+138.124.242.51,NO,Globalconnect As,2,2,44,2026-06-09 01:46:43.139000+00:00,2026-06-24 12:38:53.143000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Cobham-decoy #2: Kit A ×1
+138.2.102.66,US,,2,2,44,2026-04-16 13:40:05.234000+00:00,2026-04-20 23:23:12.675000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Cobham-decoy #1: Kit A ×1
+144.31.74.14,US,,2,2,42,2026-04-16 15:00:47.900000+00:00,2026-04-18 22:21:43.150000+00:00,"Kit A, Partial",same playbook (some runs partial),SCADA DNP3 S7 SERVER #2: Partial ×1; Port-Authority-Gateway-Decoy #1: Kit A ×1
+154.16.10.170,ZA,Digital Energy Technologies Ltd.,2,2,8,2025-10-24 06:08:17.283000+00:00,2025-10-27 06:29:20.408000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+165.1.78.209,US,Oracle Corporation,2,2,44,2026-07-16 22:26:02.429000+00:00,2026-07-22 01:06:54.890000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Kit A ×1
+165.154.218.226,CA,Interhop Network SERVICES Inc.,2,2,86,2026-09-13 16:45:11.017000+00:00,2026-09-27 14:35:40.709000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+165.154.233.77,CA,Interhop Network SERVICES Inc.,2,2,7,2025-10-27 15:45:42.114000+00:00,2025-12-07 14:02:13.077000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+165.22.216.148,IN,"DigitalOcean, LLC",2,2,24,2026-01-16 00:13:21.204000+00:00,2026-01-19 13:04:57.618000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+167.126.6.183,,,2,2,44,2026-06-12 07:49:57.070000+00:00,2026-07-09 17:15:33.224000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Cobham-decoy #2: Kit A ×1
+167.71.233.141,IN,"DigitalOcean, LLC",2,2,86,2026-09-22 02:37:04.469000+00:00,2026-10-18 17:24:55.913000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+167.86.115.89,DE,Contabo GmbH,2,2,8,2025-11-24 08:37:36.748000+00:00,2025-11-26 18:24:29.613000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+168.228.151.152,BR,INTEGRATO TELECOMUNICAÇÕES LTDA - ME,2,2,86,2026-10-07 00:09:18.806000+00:00,2026-10-11 16:05:24.568000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+170.9.16.186,US,Emerson Electric Co.,2,2,44,2026-06-11 09:07:55.014000+00:00,2026-06-15 03:00:08.357000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1
+185.100.157.155,TR,M247 Ltd,2,2,24,2026-01-26 19:16:18.562000+00:00,2026-02-02 18:55:38.270000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+185.2.101.118,DE,Contabo GmbH,2,2,44,2026-04-26 17:09:24.049000+00:00,2026-04-27 03:13:07.028000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Cobham-decoy #1: Kit A ×1
+186.242.162.94,BR,Telemar Norte Leste S.A.,2,2,6,2026-08-25 22:54:55.675000+00:00,2026-09-05 10:59:51.764000+00:00,"Single, Partial",same playbook (some runs partial),Port-Authority-Gateway-Decoy #2: Single ×1; seatel-vsat-satcom-Bahrain: Partial ×1
+188.255.156.80,RS,CNServer LLC,2,2,45,2026-07-29 08:57:50.553000+00:00,2026-07-30 22:03:49.505000+00:00,"Kit B, Single",playbook differs by honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1; SCADA DNP3 S7 SERVER #3: Single ×1
+190.202.31.74,VE,"CANTV Servicios, Venezuela",2,2,8,2025-11-15 15:56:15.349000+00:00,2025-11-16 12:13:58.644000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+193.233.48.12,RU,OOO FREEnet Group,2,2,24,2026-01-23 15:10:45.181000+00:00,2026-01-23 20:14:49.268000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+196.245.52.130,ES,Orion Network Limited,2,2,44,2026-07-18 07:07:21.465000+00:00,2026-07-29 09:35:31.225000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Kit A ×1
+197.220.93.100,SO,,2,2,6,2025-08-18 22:36:05.064000+00:00,2025-08-24 22:19:30.126000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+2.26.81.183,GB,EE Limited,2,2,44,2026-04-15 14:48:24.834000+00:00,2026-04-18 02:46:17.462000+00:00,Kit A,same playbook on every honeypot,Industrial Control Systems #2: Kit A ×1; Cobham-decoy #1: Kit A ×1
+20.9.185.246,US,Microsoft Corporation,2,2,48,2025-12-09 11:56:42.148000+00:00,2025-12-10 15:41:54.280000+00:00,Kit A,same playbook on every honeypot,Industrial Control Systems #2: Kit A ×1; SCADA DNP3 S7 SERVER #2: Kit A ×1
+210.211.122.97,VN,CHT Compamy Ltd,2,2,65,2026-05-12 10:09:28.859000+00:00,2026-08-06 19:05:04.221000+00:00,"Kit A, Kit B",playbook differs by honeypot,Cobham-decoy #1: Kit A ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+212.127.90.201,PL,Korbank S. A.,2,2,44,2026-06-19 23:14:15.354000+00:00,2026-06-24 23:53:32.726000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Cobham-decoy #2: Kit A ×1
+212.227.3.34,DE,1&1 Ionos Se,2,2,8,2025-11-20 10:51:52.509000+00:00,2025-11-23 05:32:28.145000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+212.227.3.37,DE,1&1 Ionos Se,2,2,8,2025-11-02 16:36:11.821000+00:00,2025-11-02 22:25:30.465000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+216.10.250.218,IN,PDR,2,2,8,2025-10-03 22:16:21.926000+00:00,2025-10-06 10:53:54.590000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+216.57.110.81,US,West Corporation,2,2,44,2026-05-17 12:36:01.441000+00:00,2026-07-15 10:45:05.500000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Cobham-decoy #2: Kit A ×1
+217.154.69.208,GB,Kcom,2,2,40,2026-01-16 03:09:05.063000+00:00,2026-01-24 06:50:13.056000+00:00,Partial,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1; seatel-vsat-satcom: Partial ×1
+223.123.65.54,CN,Guangdong Mobile Communication Co.Ltd.,2,2,86,2026-09-16 09:47:01.934000+00:00,2026-09-23 04:45:51.998000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+23.224.68.178,US,CNSERVERS LLC,2,2,24,2026-01-16 17:27:05.547000+00:00,2026-01-17 17:30:16.913000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+31.70.84.142,DE,IONOS SE,2,2,44,2026-08-18 09:18:05.435000+00:00,2026-09-22 09:00:01.895000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #2: Kit A ×1; seatel-vsat-satcom-Bahrain: Kit A ×1
+31.76.111.195,GB,EE Limited,2,2,86,2026-10-08 21:39:35.731000+00:00,2026-10-10 03:06:44.483000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+34.123.181.51,US,Google LLC,2,2,8,2025-08-30 10:56:15.037000+00:00,2025-09-03 22:25:06.331000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+34.59.175.189,US,,2,2,8,2025-10-11 03:33:34.689000+00:00,2025-10-12 17:20:06.336000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+36.140.33.10,CN,Guangdong Mobile Communication Co.Ltd.,2,2,12,2025-10-02 07:23:34.173000+00:00,2025-10-24 16:41:34.080000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+37.120.213.13,CH,M247 Ltd,2,2,6,2026-02-25 19:00:59.913000+00:00,2026-06-14 06:44:47.848000+00:00,"Single, Partial",same playbook (some runs partial),SCADA DNP3 S7 SERVER #2: Partial ×1; Cobham-decoy #1: Single ×1
+45.148.102.6,SC,Global Connectivity Solutions Llp,2,2,44,2026-04-18 17:34:29.817000+00:00,2026-05-18 04:36:13.603000+00:00,Kit A,same playbook on every honeypot,Port-Authority-Gateway-Decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1
+45.149.78.119,DE,,2,2,24,2026-01-30 18:24:23.678000+00:00,2026-02-01 11:26:55.960000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+45.171.255.202,BR,,2,2,30,2025-11-28 17:42:33.796000+00:00,2025-11-29 13:27:56.210000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×1; Industrial Control Systems #2: Kit A ×1
+45.171.255.203,BR,,2,2,8,2025-11-28 14:31:47.001000+00:00,2025-11-30 12:31:28.770000+00:00,Single,same playbook on every honeypot,Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Single ×1
+45.225.135.21,PA,RACK SPHERE HOSTING S.A.,2,2,6,2026-09-17 03:41:30.687000+00:00,2026-09-28 23:15:33.229000+00:00,"Single, Partial",same playbook (some runs partial),Cobham-decoy #2: Partial ×1; Malware Collection Type 2: Single ×1
+45.78.235.64,CA,FIBERNETICS CORPORATION,2,2,24,2026-01-29 09:39:27.816000+00:00,2026-01-31 21:35:04.124000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+45.78.235.69,CA,FIBERNETICS CORPORATION,2,2,24,2026-01-29 13:04:58.074000+00:00,2026-01-31 10:20:47.729000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+45.78.235.71,CA,FIBERNETICS CORPORATION,2,2,24,2026-01-31 14:17:09.109000+00:00,2026-01-31 15:28:40.278000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+45.78.235.72,CA,FIBERNETICS CORPORATION,2,2,44,2026-01-30 04:24:10.684000+00:00,2026-01-30 15:22:33.087000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; seatel-vsat-satcom: Kit A ×1
+45.93.168.13,IR,,2,2,24,2025-12-15 10:03:15.363000+00:00,2026-01-08 22:56:56.349000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+5.104.86.151,FI,Solteq Oyj,2,2,24,2026-01-19 20:44:07.439000+00:00,2026-01-20 21:49:11.438000+00:00,"Kit A, Single",playbook differs by honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Electric-Vehicle-Charging-System: Single ×1
+61.65.40.244,TW,SaveCom Internation Inc.,2,2,8,2025-09-20 14:43:15.955000+00:00,2025-09-21 18:37:34.214000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+62.132.18.20,NL,KPN B.V.,2,2,4,2026-05-14 10:03:52.597000+00:00,2026-05-19 00:14:33.212000+00:00,Single,same playbook on every honeypot,Cobham-decoy #1: Single ×1; Port-Authority-Gateway-Decoy #2: Single ×1
+62.169.17.65,DE,,2,2,8,2025-09-07 01:41:44.845000+00:00,2025-09-16 22:13:27.708000+00:00,Single,same playbook on every honeypot,IT Services with POP3: Single ×1; Electric vehicle charging process #1: Single ×1
+62.171.168.149,GB,RM Education Ltd,2,2,44,2026-05-14 09:26:05.679000+00:00,2026-05-17 10:01:33.699000+00:00,Kit A,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1; Cobham-decoy #1: Kit A ×1
+66.205.216.58,US,"All West Communications, Inc.",2,2,6,2026-09-17 01:32:17.269000+00:00,2026-09-20 20:24:31.015000+00:00,"Single, Partial",same playbook (some runs partial),Port-Authority-Gateway-Decoy #2: Partial ×1; seatel-vsat-satcom-Bahrain: Single ×1
+68.183.234.194,SG,"DigitalOcean, LLC",2,2,24,2026-01-24 17:23:39.103000+00:00,2026-01-27 06:37:39.824000+00:00,"Kit A, Single",playbook differs by honeypot,Electric-Vehicle-Charging-System: Single ×1; seatel-vsat-satcom: Kit A ×1
+79.143.178.79,DE,Contabo GmbH,2,2,44,2026-05-30 22:56:11.948000+00:00,2026-06-02 23:41:17.240000+00:00,Kit A,same playbook on every honeypot,Cobham-decoy #1: Kit A ×1; Port-Authority-Gateway-Decoy #2: Kit A ×1
+83.168.69.9,PL,Espol Sp. z o. o.,2,2,12,2025-11-24 16:00:04.254000+00:00,2025-11-30 09:17:20.156000+00:00,"Single, Partial",same playbook (some runs partial),Electric vehicle charging process #1: Single ×1; Electric vehicle charging process #2: Partial ×1
+86.48.30.152,DK,Sentia Denmark A/S,2,2,25,2025-12-07 12:48:05.130000+00:00,2026-01-13 11:02:39.588000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #1: Single ×1; SCADA DNP3 S7 SERVER #2: Kit A ×1
+89.117.148.254,LT,SC Lithuanian Radio and TV Center,2,2,24,2025-12-12 12:29:14.811000+00:00,2025-12-13 09:30:15.134000+00:00,"Kit A, Single",playbook differs by honeypot,Electric vehicle charging process #2: Single ×1; SCADA DNP3 S7 SERVER #2: Kit A ×1
+92.5.155.195,GB,TalkTalk,2,2,86,2026-09-26 05:23:38.386000+00:00,2026-09-29 20:01:23.788000+00:00,Kit B,same playbook on every honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1; seatel-vsat-satcom-Bahrain: Kit B ×1
+96.44.158.206,US,QuadraNet Enterprises LLC,2,2,4,2026-01-08 20:44:36.778000+00:00,2026-01-13 07:54:43.283000+00:00,Single,same playbook on every honeypot,SCADA DNP3 S7 SERVER #2: Single ×1; seatel-vsat-satcom: Single ×1
+128.14.227.179,TW,UCloud (HK) Holdings Group Limited,1,4,15,2025-10-29 01:59:13.567000+00:00,2025-12-07 06:29:07.645000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×4
+109.248.170.188,CZ,,1,3,48,2026-04-16 08:35:32.440000+00:00,2026-05-05 01:35:26.670000+00:00,"Kit A, Partial",single honeypot,Cobham-decoy #1: Kit A ×3
+118.145.104.105,CN,"Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",1,3,66,2026-05-27 22:47:05.639000+00:00,2026-08-08 15:34:55.094000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×3
+107.189.24.77,US,FranTech Solutions,1,2,24,2026-05-10 05:42:45.182000+00:00,2026-06-04 06:03:29.203000+00:00,"Kit A, Single",single honeypot,Cobham-decoy #1: Kit A ×2
+109.238.140.87,SE,Bredband2 Stockholms Stadsnaet AB,1,2,4,2026-09-16 20:42:11.323000+00:00,2026-09-17 09:05:12.191000+00:00,Single,single honeypot,Cobham-decoy #2: Single ×2
+115.190.75.127,CN,Computer Network Information Center,1,2,8,2025-09-25 09:38:55.311000+00:00,2025-09-29 04:04:02.950000+00:00,Single,single honeypot,IT Services with POP3: Single ×2
+120.236.49.131,CN,"China Mobile Communications Group Co., Ltd.",1,2,44,2026-07-02 14:03:35.103000+00:00,2026-07-09 06:23:16.951000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×2
+123.139.218.0,CN,CHINA UNICOM China169 Backbone,1,2,8,2025-10-24 18:13:28.964000+00:00,2025-11-01 13:50:13.517000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×2
+123.233.245.135,CN,CHINA UNICOM China169 Backbone,1,2,20,2026-01-25 10:23:53.298000+00:00,2026-02-14 00:12:05.810000+00:00,"Kit A, Single",single honeypot,seatel-vsat-satcom: Kit A ×2
+123.253.22.8,MM,,1,2,8,2025-09-10 11:46:30.053000+00:00,2025-09-25 11:32:37.541000+00:00,Single,single honeypot,IT Services with POP3: Single ×2
+137.131.43.224,US,The Scripps Research Institute,1,2,7,2025-08-20 20:32:13.311000+00:00,2025-09-02 15:21:01.578000+00:00,Single,single honeypot,IT Services with POP3: Single ×2
+147.45.50.147,RU,OOO FREEnet Group,1,2,44,2026-05-29 13:23:19.150000+00:00,2026-06-07 21:54:31.381000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×2
+151.3.182.54,IT,Wind Tre S.p.A.,1,2,20,2026-01-02 01:15:50.653000+00:00,2026-01-02 18:54:54.707000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×2
+152.32.132.28,HK,UCloud (HK) Holdings Group Limited,1,2,44,2026-05-17 10:25:25.731000+00:00,2026-05-31 06:03:48.280000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×2
+152.32.174.171,HK,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,1,2,44,2026-07-05 06:07:30.292000+00:00,2026-07-20 07:46:51.577000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×2
+159.65.143.47,SG,"DigitalOcean, LLC",1,2,44,2026-07-08 23:36:01.335000+00:00,2026-07-09 11:52:17.174000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×2
+159.65.31.54,GB,"DigitalOcean, LLC",1,2,8,2025-10-24 03:17:56.823000+00:00,2025-11-15 02:30:29.422000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×2
+160.30.172.107,,,1,2,6,2026-01-20 22:24:33.905000+00:00,2026-01-29 14:51:55.745000+00:00,"Single, Partial",single honeypot,Electric-Vehicle-Charging-System: Single ×2
+163.5.214.40,FR,Epitech,1,2,44,2026-04-14 05:04:27.037000+00:00,2026-05-02 06:51:29.438000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×2
+167.86.109.193,DE,Contabo GmbH,1,2,44,2026-02-11 13:52:56.184000+00:00,2026-02-14 03:09:32.702000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×2
+173.183.178.122,CA,TELUS Communications Inc.,1,2,40,2026-10-04 03:26:03.043000+00:00,2026-10-08 04:12:01.834000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×2
+185.85.205.122,TR,AKA Bilisim Yazilim Arge Ins. Taah. San. Tic. A.S.,1,2,8,2025-10-28 22:45:38.867000+00:00,2025-11-02 11:25:00.113000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×2
+190.124.153.17,AR,MERCO COMUNICACIONES,1,2,7,2025-12-01 04:30:36.997000+00:00,2025-12-11 17:18:05.430000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×2
+194.163.170.0,DE,PlusServer GmbH,1,2,86,2026-09-10 23:39:43.464000+00:00,2026-09-11 23:40:41.512000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×2
+212.57.185.186,RU,Rostelecom,1,2,8,2025-12-01 03:40:45.635000+00:00,2025-12-01 20:23:18.377000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×2
+213.176.16.122,IR,,1,2,7,2025-11-29 14:40:44.489000+00:00,2025-12-07 15:40:33.265000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×2
+223.85.251.61,CN,"China Mobile Communications Group Co., Ltd.",1,2,44,2026-06-29 00:37:17.748000+00:00,2026-08-23 06:06:46.548000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×2
+38.148.20.75,US,Cogent Communications,1,2,47,2026-09-13 10:22:05.543000+00:00,2026-10-10 10:18:36.572000+00:00,"Kit B, Partial",single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×2
+41.63.63.211,ZM,ZAMREN,1,2,44,2026-08-18 18:44:01.837000+00:00,2026-10-07 08:01:46.827000+00:00,Kit A,single honeypot,seatel-vsat-satcom-Bahrain: Kit A ×2
+42.113.16.81,VN,The Corporation for Financing & Promoting Technology,1,2,4,2026-01-12 11:11:07.567000+00:00,2026-01-13 07:48:14.611000+00:00,"Single, Partial",single honeypot,seatel-vsat-satcom: Single ×2
+83.229.8.197,NG,SkyVision Global Networks Ltd,1,2,44,2026-06-01 15:40:12.977000+00:00,2026-06-08 08:50:44.289000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×2
+89.185.81.112,RU,OLIMP-SVYAZ Ltd.,1,2,44,2026-05-17 22:07:57.428000+00:00,2026-05-28 20:28:52.102000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×2
+92.55.190.215,KZ,Kar-Tel LLC,1,2,8,2025-09-09 12:02:01.293000+00:00,2025-09-16 03:22:29.326000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×2
+1.161.184.211,TW,Data Communication Business Group,1,1,4,2026-04-15 10:20:39.779000+00:00,2026-04-15 10:20:39.779000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+1.53.36.245,VN,The Corporation for Financing & Promoting Technology,1,1,4,2026-06-01 12:31:11.139000+00:00,2026-06-01 12:31:11.139000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+1.92.109.147,CN,Huawei Cloud Service data center,1,1,43,2026-09-10 12:44:46.634000+00:00,2026-09-10 12:44:46.634000+00:00,Kit B,single honeypot,Cobham-decoy #2: Kit B ×1
+101.47.15.119,SG,Byteplus Pte. Ltd.,1,1,22,2026-07-03 11:18:24.975000+00:00,2026-07-03 11:18:24.975000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+101.47.16.134,SG,Byteplus Pte. Ltd.,1,1,22,2026-04-19 10:46:49.543000+00:00,2026-04-19 10:46:49.543000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #1: Kit A ×1
+101.51.157.107,TH,TOT Public Company Limited,1,1,43,2026-08-21 22:19:39.729000+00:00,2026-08-21 22:19:39.729000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+102.204.223.186,,,1,1,22,2026-06-07 02:31:09.061000+00:00,2026-06-07 02:31:09.061000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+102.211.209.140,,,1,1,4,2025-09-02 23:00:40.949000+00:00,2025-09-02 23:00:40.949000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+102.244.97.183,CM,ORANGE,1,1,22,2026-01-29 11:10:26.480000+00:00,2026-01-29 11:10:26.480000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+102.244.97.185,CM,ORANGE,1,1,43,2026-10-07 23:08:54.951000+00:00,2026-10-07 23:08:54.951000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+102.244.99.185,CM,ORANGE,1,1,2,2026-10-18 08:59:46+00:00,2026-10-18 08:59:46+00:00,Single,single honeypot,Malware Collection Type 2: Single ×1
+103.101.216.218,,,1,1,4,2025-10-28 16:56:19.348000+00:00,2025-10-28 16:56:19.348000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+103.110.81.140,CN,Anchnet Asia Limited,1,1,4,2025-08-31 10:30:17.243000+00:00,2025-08-31 10:30:17.243000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+103.126.117.76,ID,,1,1,22,2026-06-01 05:05:04.929000+00:00,2026-06-01 05:05:04.929000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+103.143.10.79,HK,Gigabitbank Global,1,1,4,2026-01-30 01:42:40.327000+00:00,2026-01-30 01:42:40.327000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+103.143.11.114,HK,Gigabitbank Global,1,1,4,2025-11-20 01:21:00.107000+00:00,2025-11-20 01:21:00.107000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+103.144.3.109,HK,Gigabitbank Global,1,1,4,2025-11-15 04:47:18.828000+00:00,2025-11-15 04:47:18.828000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+103.148.118.211,,,1,1,22,2026-02-02 20:29:43.376000+00:00,2026-02-02 20:29:43.376000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+103.167.88.166,VN,INTERDIGI JOINT STOCK COMPANY,1,1,22,2026-07-23 06:06:19.233000+00:00,2026-07-23 06:06:19.233000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+103.235.199.75,NP,"Subisu Cablenet (Pvt) Ltd, Baluwatar, Kathmandu, Nepal",1,1,26,2025-11-25 01:28:57.430000+00:00,2025-11-25 01:28:57.430000+00:00,Kit A,single honeypot,Industrial Control Systems #1: Kit A ×1
+103.242.118.31,IN,Web Werks India Pvt. Ltd.,1,1,20,2026-04-26 15:11:04.426000+00:00,2026-04-26 15:11:04.426000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+103.251.93.98,IN,Web Werks India Pvt. Ltd.,1,1,4,2025-08-29 18:30:17.409000+00:00,2025-08-29 18:30:17.409000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+103.66.218.196,HK,Cloudie Limited,1,1,22,2026-01-11 22:21:28.557000+00:00,2026-01-11 22:21:28.557000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+103.75.199.78,IN,Anish Infoline Pvt Ltd,1,1,22,2026-05-14 16:49:11.749000+00:00,2026-05-14 16:49:11.749000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+103.78.2.252,IN,National Internet Backbone,1,1,43,2026-09-08 22:59:15.618000+00:00,2026-09-08 22:59:15.618000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+103.81.171.66,CN,Anchnet Asia Limited,1,1,2,2026-01-08 00:27:54.526000+00:00,2026-01-08 00:27:54.526000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+104.199.225.230,,Google LLC,1,1,4,2025-10-15 10:59:20.299000+00:00,2025-10-15 10:59:20.299000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+104.245.245.183,US,QuadraNet Enterprises LLC,1,1,22,2026-05-21 05:12:12.214000+00:00,2026-05-21 05:12:12.214000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+106.117.214.41,CN,"No.31,Jin-rong Street",1,1,4,2025-11-21 19:46:38.671000+00:00,2025-11-21 19:46:38.671000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+106.13.122.198,CN,"Beijing Baidu Netcom Science and Technology Co., Ltd.",1,1,2,2026-10-15 17:48:13.264000+00:00,2026-10-15 17:48:13.264000+00:00,Single,single honeypot,Malware Collection Type 2: Single ×1
+106.13.183.26,CN,"Beijing Baidu Netcom Science and Technology Co., Ltd.",1,1,2,2026-02-06 20:08:52.655000+00:00,2026-02-06 20:08:52.655000+00:00,Single,single honeypot,seatel-vsat-satcom: Single ×1
+106.54.176.158,CN,Shenzhen Tencent Computer Systems Company Limited,1,1,20,2025-12-18 14:56:37.862000+00:00,2025-12-18 14:56:37.862000+00:00,Partial,single honeypot,Industrial Control Systems #2: Partial ×1
+106.75.153.165,CN,CHINANET Guangdong province network,1,1,2,2026-01-17 22:48:15.568000+00:00,2026-01-17 22:48:15.568000+00:00,Single,single honeypot,SCADA DNP3 S7 SERVER #2: Single ×1
+106.75.236.237,CN,China Telecom (Group),1,1,4,2025-10-12 05:51:32.035000+00:00,2025-10-12 05:51:32.035000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+107.150.119.229,HK,UCloud (HK) Holdings Group Limited,1,1,22,2026-02-26 08:46:11.696000+00:00,2026-02-26 08:46:11.696000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+107.172.128.153,US,HostPapa,1,1,22,2026-07-18 02:45:59.338000+00:00,2026-07-18 02:45:59.338000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+107.172.204.15,US,ColoCrossing,1,1,22,2026-06-07 01:12:17.619000+00:00,2026-06-07 01:12:17.619000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+107.172.57.42,US,ColoCrossing,1,1,43,2026-08-06 10:47:16.071000+00:00,2026-08-06 10:47:16.071000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+107.173.241.217,US,HostPapa,1,1,22,2026-08-11 15:43:17.250000+00:00,2026-08-11 15:43:17.250000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+107.175.212.220,US,ColoCrossing,1,1,22,2026-05-22 23:35:06.734000+00:00,2026-05-22 23:35:06.734000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+107.175.221.33,US,ColoCrossing,1,1,22,2026-04-27 14:29:48.612000+00:00,2026-04-27 14:29:48.612000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+108.165.164.23,US,,1,1,43,2026-09-04 17:19:06.298000+00:00,2026-09-04 17:19:06.298000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+108.165.95.65,US,"Ace Data Centers, Inc.",1,1,22,2026-02-04 08:26:29.078000+00:00,2026-02-04 08:26:29.078000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+109.123.232.136,CZ,Casablanca INT,1,1,22,2026-02-27 08:49:52.124000+00:00,2026-02-27 08:49:52.124000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+109.123.244.125,CZ,Casablanca INT,1,1,22,2026-05-24 11:17:44.252000+00:00,2026-05-24 11:17:44.252000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+109.172.55.64,RU,"National Telecom, CJSC",1,1,22,2026-05-20 18:21:50.133000+00:00,2026-05-20 18:21:50.133000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+109.205.179.120,DE,GHOSTnet GmbH,1,1,4,2025-11-22 23:38:28.867000+00:00,2025-11-22 23:38:28.867000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+109.236.50.3,IT,Meric Hosting,1,1,22,2026-06-23 18:15:08.914000+00:00,2026-06-23 18:15:08.914000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+111.119.238.148,IN,Syscon Infoway Pvt. Ltd.,1,1,4,2025-09-24 00:50:17.976000+00:00,2025-09-24 00:50:17.976000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+111.170.153.221,CN,"No.31,Jin-rong Street",1,1,4,2025-11-28 11:45:20.971000+00:00,2025-11-28 11:45:20.971000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+111.228.9.192,CN,,1,1,2,2026-01-16 04:08:43.359000+00:00,2026-01-16 04:08:43.359000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+111.4.78.110,CN,Guangdong Mobile Communication Co.Ltd.,1,1,2,2026-07-31 03:42:21.827000+00:00,2026-07-31 03:42:21.827000+00:00,Single,single honeypot,Port-Authority-Gateway-Decoy #2: Single ×1
+111.9.42.36,CN,"China Mobile Communications Group Co., Ltd.",1,1,22,2026-07-13 23:46:09.583000+00:00,2026-07-13 23:46:09.583000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+112.18.51.62,CN,Guangdong Mobile Communication Co.Ltd.,1,1,41,2026-09-15 10:39:18.431000+00:00,2026-09-15 10:39:18.431000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+112.51.27.81,CN,"China Mobile Communications Group Co., Ltd.",1,1,2,2026-08-28 04:27:44.310000+00:00,2026-08-28 04:27:44.310000+00:00,Single,single honeypot,Cobham-decoy #2: Single ×1
+112.51.27.82,CN,Guangdong Mobile Communication Co.Ltd.,1,1,2,2026-09-23 08:17:07.418000+00:00,2026-09-23 08:17:07.418000+00:00,Single,single honeypot,seatel-vsat-satcom-Bahrain: Single ×1
+113.45.57.212,CN,China Networks Inter-Exchange,1,1,3,2025-08-12 18:56:20.558000+00:00,2025-08-12 18:56:20.558000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+113.45.75.124,CN,China Networks Inter-Exchange,1,1,4,2025-09-15 22:36:59.351000+00:00,2025-09-15 22:36:59.351000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+114.43.131.41,TW,Data Communication Business Group,1,1,3,2025-08-28 18:14:06.534000+00:00,2025-08-28 18:14:06.534000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+114.43.151.130,TW,Data Communication Business Group,1,1,4,2025-10-19 18:58:32.198000+00:00,2025-10-19 18:58:32.198000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+115.190.230.253,CN,Computer Network Information Center,1,1,4,2025-11-19 13:50:22.446000+00:00,2025-11-19 13:50:22.446000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+115.190.27.252,CN,Computer Network Information Center,1,1,4,2025-10-01 15:03:12.060000+00:00,2025-10-01 15:03:12.060000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+115.69.206.243,JP,Equinix Jpapan Enterprise K.K.,1,1,22,2026-06-08 21:48:14.610000+00:00,2026-06-08 21:48:14.610000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+117.1.28.49,VN,Viettel Group,1,1,2,2026-01-21 05:24:08.624000+00:00,2026-01-21 05:24:08.624000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+117.139.231.46,CN,"China Mobile Communications Group Co., Ltd.",1,1,22,2026-06-29 23:26:47.120000+00:00,2026-06-29 23:26:47.120000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+117.175.140.121,CN,Guangdong Mobile Communication Co.Ltd.,1,1,20,2026-06-20 17:47:45.981000+00:00,2026-06-20 17:47:45.981000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+117.50.182.220,CN,"IDC, China Telecommunications Corporation",1,1,4,2025-09-19 03:01:25.443000+00:00,2025-09-19 03:01:25.443000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+118.145.104.37,CN,"Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",1,1,43,2026-09-13 00:39:45.161000+00:00,2026-09-13 00:39:45.161000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+118.145.137.6,CN,"Beijing Dian-Xin-Tong Network Technologies Co., Ltd.",1,1,4,2025-09-26 07:10:38.215000+00:00,2025-09-26 07:10:38.215000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+118.193.46.22,CN,,1,1,4,2025-10-21 00:25:49.101000+00:00,2025-10-21 00:25:49.101000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+118.26.111.61,CN,,1,1,22,2026-01-02 08:23:49.786000+00:00,2026-01-02 08:23:49.786000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+119.161.102.23,SG,NewMedia Express Pte Ltd,1,1,3,2025-08-17 12:17:43.010000+00:00,2025-08-17 12:17:43.010000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+119.18.55.217,IN,PDR,1,1,4,2025-09-18 06:31:23.288000+00:00,2025-09-18 06:31:23.288000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+120.211.74.131,CN,Hebei Mobile Communication Company Limited,1,1,28,2026-10-17 18:53:50.164000+00:00,2026-10-17 18:53:50.164000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+120.48.124.94,CN,"CITIC Networks Management Co.,Ltd.",1,1,2,2026-02-10 22:20:58.528000+00:00,2026-02-10 22:20:58.528000+00:00,Single,single honeypot,seatel-vsat-satcom: Single ×1
+120.48.144.5,CN,"CITIC Networks Management Co.,Ltd.",1,1,2,2026-10-08 22:15:28.929000+00:00,2026-10-08 22:15:28.929000+00:00,Single,single honeypot,Port-Authority-Gateway-Decoy #2: Single ×1
+120.48.152.13,CN,"Beijing Baidu Netcom Science and Technology Co., Ltd.",1,1,20,2026-07-17 16:41:49.048000+00:00,2026-07-17 16:41:49.048000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×1
+120.48.69.73,CN,"CITIC Networks Management Co.,Ltd.",1,1,4,2025-11-23 21:40:25.488000+00:00,2025-11-23 21:40:25.488000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+120.48.75.127,CN,"CITIC Networks Management Co.,Ltd.",1,1,22,2026-05-23 16:38:44.927000+00:00,2026-05-23 16:38:44.927000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+120.48.75.210,CN,"CITIC Networks Management Co.,Ltd.",1,1,4,2026-01-12 02:19:38.089000+00:00,2026-01-12 02:19:38.089000+00:00,Partial,single honeypot,Electric-Vehicle-Charging-System: Partial ×1
+120.48.77.176,CN,"CITIC Networks Management Co.,Ltd.",1,1,4,2025-09-28 08:15:16.895000+00:00,2025-09-28 08:15:16.895000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+121.127.233.202,HK,Sun Network (Hong Kong) Limited - HongKong Backbone,1,1,41,2026-08-18 06:06:57.664000+00:00,2026-08-18 06:06:57.664000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+121.160.25.114,KR,Korea Telecom,1,1,43,2026-10-07 09:56:00.464000+00:00,2026-10-07 09:56:00.464000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+121.6.97.6,SG,Singtel Fibre Broadband,1,1,43,2026-10-07 22:11:21.093000+00:00,2026-10-07 22:11:21.093000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+122.114.159.176,CN,CHINA UNICOM China169 Backbone,1,1,8,2025-10-26 02:00:13.524000+00:00,2025-10-26 02:00:13.524000+00:00,Partial,single honeypot,Electric vehicle charging process #1: Partial ×1
+122.51.19.120,CN,Shenzhen Tencent Computer Systems Company Limited,1,1,4,2026-10-14 16:03:53.933000+00:00,2026-10-14 16:03:53.933000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+123.249.88.45,CN,"No.31,Jin-rong Street",1,1,2,2025-12-12 19:30:04.922000+00:00,2025-12-12 19:30:04.922000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+124.158.13.141,VN,CMC Telecom Infrastructure Company,1,1,43,2026-09-23 13:20:39.242000+00:00,2026-09-23 13:20:39.242000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+124.71.231.117,CN,,1,1,3,2025-08-19 03:34:35.032000+00:00,2025-08-19 03:34:35.032000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+125.141.72.225,KR,Korea Telecom,1,1,43,2026-10-14 04:00:17.033000+00:00,2026-10-14 04:00:17.033000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+125.247.51.6,KR,LG POWERCOMM,1,1,43,2026-09-16 23:57:19.566000+00:00,2026-09-16 23:57:19.566000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+128.14.167.115,US,Zenlayer Inc,1,1,4,2025-12-06 03:54:33.131000+00:00,2025-12-06 03:54:33.131000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+128.14.167.117,US,Zenlayer Inc,1,1,2,2025-12-12 04:25:58.621000+00:00,2025-12-12 04:25:58.621000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+128.241.229.30,US,"NTT America, Inc.",1,1,2,2026-02-14 01:51:26.306000+00:00,2026-02-14 01:51:26.306000+00:00,Single,single honeypot,seatel-vsat-satcom: Single ×1
+129.121.128.70,US,A Small Orange LLC,1,1,43,2026-09-17 22:26:20.512000+00:00,2026-09-17 22:26:20.512000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+129.150.47.234,US,Oracle Corporation,1,1,22,2026-05-14 04:03:30.596000+00:00,2026-05-14 04:03:30.596000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+13.140.137.119,US,,1,1,22,2026-07-31 04:34:02.689000+00:00,2026-07-31 04:34:02.689000+00:00,Kit A,single honeypot,seatel-vsat-satcom-Bahrain: Kit A ×1
+13.140.137.178,US,,1,1,22,2026-06-11 18:26:55.178000+00:00,2026-06-11 18:26:55.178000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+13.140.137.189,FR,Contabo GmbH,1,1,22,2026-07-04 04:57:12.192000+00:00,2026-07-04 04:57:12.192000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+130.185.118.124,US,DediPath,1,1,4,2025-11-15 01:08:50.024000+00:00,2025-11-15 01:08:50.024000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+130.185.119.80,US,DediPath,1,1,22,2026-05-31 00:59:57.990000+00:00,2026-05-31 00:59:57.990000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+130.49.189.41,US,University of Pittsburgh,1,1,22,2026-06-12 12:15:37.557000+00:00,2026-06-12 12:15:37.557000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+130.61.24.69,DE,Oracle Corporation,1,1,22,2026-05-19 02:44:14.502000+00:00,2026-05-19 02:44:14.502000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+135.232.122.168,US,Alcatel-Lucent,1,1,22,2026-06-19 08:26:58.245000+00:00,2026-06-19 08:26:58.245000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+138.2.0.137,US,,1,1,20,2026-03-01 02:50:55.825000+00:00,2026-03-01 02:50:55.825000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+138.249.7.228,FI,,1,1,22,2026-01-22 13:27:53.753000+00:00,2026-01-22 13:27:53.753000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+138.97.118.219,BR,NC BRASIL TELECOM E SERVIÇOS LTDA- ME,1,1,22,2026-02-25 08:05:57.854000+00:00,2026-02-25 08:05:57.854000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+139.177.187.248,US,,1,1,22,2026-01-28 09:55:14.405000+00:00,2026-01-28 09:55:14.405000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+139.59.240.137,SG,"DigitalOcean, LLC",1,1,22,2026-04-29 22:46:04.088000+00:00,2026-04-29 22:46:04.088000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+139.99.52.209,SG,OVH SAS,1,1,4,2026-01-26 23:03:51.380000+00:00,2026-01-26 23:03:51.380000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+14.102.2.86,IN,AS Number for Interdomain Routing,1,1,22,2026-04-17 09:31:12.975000+00:00,2026-04-17 09:31:12.975000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+14.103.180.72,CN,,1,1,4,2025-09-19 06:35:24.617000+00:00,2025-09-19 06:35:24.617000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+14.33.83.154,KR,Korea Telecom,1,1,22,2026-02-13 03:06:02.237000+00:00,2026-02-13 03:06:02.237000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+140.238.52.97,JP,Oracle Corporation,1,1,22,2026-05-10 12:05:21.386000+00:00,2026-05-10 12:05:21.386000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+140.83.84.95,AU,,1,1,22,2026-01-30 21:00:09.472000+00:00,2026-01-30 21:00:09.472000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+141.11.243.21,GB,Orange,1,1,22,2026-05-31 15:34:58.897000+00:00,2026-05-31 15:34:58.897000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+141.145.148.117,DE,Oracle Corporation,1,1,4,2025-10-13 09:28:20.084000+00:00,2025-10-13 09:28:20.084000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+143.110.251.6,US,College of St. Scholastica,1,1,43,2026-07-24 14:50:44.066000+00:00,2026-07-24 14:50:44.066000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+143.14.124.172,US,The Procter and Gamble Company,1,1,22,2026-05-09 09:42:38.524000+00:00,2026-05-09 09:42:38.524000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+143.20.49.38,US,,1,1,22,2026-06-07 06:26:03.942000+00:00,2026-06-07 06:26:03.942000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+144.126.215.119,US,,1,1,22,2026-05-16 06:07:29.681000+00:00,2026-05-16 06:07:29.681000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+144.172.101.180,US,FranTech Solutions,1,1,4,2025-10-12 16:42:49.822000+00:00,2025-10-12 16:42:49.822000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+144.172.97.89,US,FranTech Solutions,1,1,2,2026-01-31 05:03:02.494000+00:00,2026-01-31 05:03:02.494000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+144.31.164.241,DE,Play2go International Limited,1,1,22,2026-04-19 15:10:49.384000+00:00,2026-04-19 15:10:49.384000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #1: Kit A ×1
+144.31.164.68,US,,1,1,4,2025-08-29 16:54:01.996000+00:00,2025-08-29 16:54:01.996000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+144.31.187.131,US,,1,1,22,2026-05-16 04:37:41.306000+00:00,2026-05-16 04:37:41.306000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+144.31.203.145,US,,1,1,16,2026-08-17 13:15:53.764000+00:00,2026-08-17 13:15:53.764000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+144.31.233.202,US,,1,1,43,2026-08-22 13:53:11.469000+00:00,2026-08-22 13:53:11.469000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+144.31.249.128,US,,1,1,22,2026-01-31 03:55:14.295000+00:00,2026-01-31 03:55:14.295000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+144.79.133.252,,,1,1,22,2026-02-07 05:21:03.514000+00:00,2026-02-07 05:21:03.514000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+144.91.109.152,DE,Contabo GmbH,1,1,22,2026-02-02 09:18:33.895000+00:00,2026-02-02 09:18:33.895000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+144.91.124.251,DE,Contabo GmbH,1,1,22,2026-02-02 07:18:23.698000+00:00,2026-02-02 07:18:23.698000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+146.190.111.81,US,,1,1,22,2026-05-12 23:31:53.261000+00:00,2026-05-12 23:31:53.261000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+146.56.186.250,JP,,1,1,20,2026-02-26 04:35:04.602000+00:00,2026-02-26 04:35:04.602000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+147.135.3.156,US,OVH SAS,1,1,20,2026-05-05 02:07:56.912000+00:00,2026-05-05 02:07:56.912000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+147.135.76.204,US,OVH SAS,1,1,2,2026-01-30 12:00:58.885000+00:00,2026-01-30 12:00:58.885000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+147.15.15.226,US,,1,1,43,2026-09-23 16:40:14.318000+00:00,2026-09-23 16:40:14.318000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+147.45.50.171,RU,OOO FREEnet Group,1,1,22,2026-05-16 00:51:45.173000+00:00,2026-05-16 00:51:45.173000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+147.93.154.17,BE,,1,1,22,2026-01-02 11:44:26.804000+00:00,2026-01-02 11:44:26.804000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+148.135.111.20,SE,"Ericsson Network Systems, Inc.",1,1,4,2025-09-17 04:24:31.552000+00:00,2025-09-17 04:24:31.552000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+149.102.128.221,US,,1,1,4,2025-11-27 22:00:50.162000+00:00,2025-11-27 22:00:50.162000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+149.28.103.24,US,"The Constant Company, LLC",1,1,22,2026-07-06 11:47:38.368000+00:00,2026-07-06 11:47:38.368000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+149.88.88.251,IL,,1,1,22,2026-04-17 23:37:50.812000+00:00,2026-04-17 23:37:50.812000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+15.235.75.76,US,Hewlett-Packard Company,1,1,4,2025-10-09 21:56:36.440000+00:00,2025-10-09 21:56:36.440000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+152.32.192.176,HK,UCloud (HK) Holdings Group Limited,1,1,22,2026-05-25 17:02:07.791000+00:00,2026-05-25 17:02:07.791000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+152.42.252.134,US,MCNC,1,1,22,2026-06-26 08:14:30.527000+00:00,2026-06-26 08:14:30.527000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+152.53.100.133,US,,1,1,4,2025-10-09 06:26:23.636000+00:00,2025-10-09 06:26:23.636000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+152.53.80.94,US,,1,1,4,2025-10-12 15:10:54.816000+00:00,2025-10-12 15:10:54.816000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+152.67.60.131,BR,Oracle Corporation,1,1,4,2025-11-14 09:16:35.796000+00:00,2025-11-14 09:16:35.796000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+153.80.240.216,US,,1,1,22,2026-05-22 04:30:39.765000+00:00,2026-05-22 04:30:39.765000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+154.12.93.114,US,Cogent Communications,1,1,4,2025-11-02 23:26:27.708000+00:00,2025-11-02 23:26:27.708000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+154.194.251.143,HK,Itace International Limited,1,1,4,2025-11-16 19:11:56.813000+00:00,2025-11-16 19:11:56.813000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+154.198.50.104,US,Internet Keeper Global,1,1,2,2026-01-27 20:15:23.111000+00:00,2026-01-27 20:15:23.111000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+154.201.66.175,US,PEG TECH INC,1,1,41,2026-09-10 21:12:40.458000+00:00,2026-09-10 21:12:40.458000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+154.201.76.59,US,PEG TECH INC,1,1,20,2025-12-18 12:07:18.985000+00:00,2025-12-18 12:07:18.985000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+154.209.5.122,HK,HK Kwaifong Group Limited,1,1,4,2026-01-29 20:01:55.342000+00:00,2026-01-29 20:01:55.342000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+154.217.243.32,US,MULTACOM CORPORATION,1,1,3,2025-08-17 13:51:01.307000+00:00,2025-08-17 13:51:01.307000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+154.219.107.8,US,DXTL Tseung Kwan O Service,1,1,4,2025-12-04 15:12:41.042000+00:00,2025-12-04 15:12:41.042000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+154.221.16.56,HK,HK Kwaifong Group Limited,1,1,20,2026-01-05 16:25:13.002000+00:00,2026-01-05 16:25:13.002000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+154.221.17.157,HK,HK Kwaifong Group Limited,1,1,4,2025-09-17 20:56:16.393000+00:00,2025-09-17 20:56:16.393000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+154.221.22.20,HK,HK Kwaifong Group Limited,1,1,2,2026-01-10 11:04:44.742000+00:00,2026-01-10 11:04:44.742000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+154.221.25.248,HK,HK Kwaifong Group Limited,1,1,20,2026-01-21 23:35:42.601000+00:00,2026-01-21 23:35:42.601000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+154.222.8.141,HK,Itace International Limited,1,1,43,2026-09-09 03:47:11.277000+00:00,2026-09-09 03:47:11.277000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+154.83.15.76,US,HK Kwaifong Group Limited,1,1,4,2025-09-14 18:56:14.117000+00:00,2025-09-14 18:56:14.117000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+154.92.16.80,HK,HK Kwaifong Group Limited,1,1,20,2026-01-17 13:57:57.134000+00:00,2026-01-17 13:57:57.134000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+155.94.246.83,US,QuadraNet Enterprises LLC,1,1,22,2026-05-30 10:23:09.845000+00:00,2026-05-30 10:23:09.845000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+156.233.228.30,US,"Root Networks, LLC",1,1,12,2026-01-16 11:52:24.891000+00:00,2026-01-16 11:52:24.891000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+156.238.236.179,US,PEG TECH INC,1,1,20,2026-05-30 13:00:22.459000+00:00,2026-05-30 13:00:22.459000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+156.241.128.106,HK,Anchnet Asia Limited,1,1,4,2025-12-05 22:21:51.962000+00:00,2025-12-05 22:21:51.962000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+156.67.25.190,DE,Kom4tel GmbH,1,1,22,2026-01-24 04:45:34.721000+00:00,2026-01-24 04:45:34.721000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+157.10.186.28,JP,,1,1,43,2026-10-18 04:04:20.947000+00:00,2026-10-18 04:04:20.947000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+157.120.33.201,JP,"NTT PC Communications, Inc.",1,1,4,2025-09-20 19:53:30.923000+00:00,2025-09-20 19:53:30.923000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+157.230.39.33,SG,"DigitalOcean, LLC",1,1,22,2026-04-26 18:41:06.191000+00:00,2026-04-26 18:41:06.191000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+157.245.105.149,IN,"DigitalOcean, LLC",1,1,4,2025-11-02 03:36:16.674000+00:00,2025-11-02 03:36:16.674000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+158.220.106.54,CH,Levantis Hosting GmbH,1,1,43,2026-08-23 05:10:08.846000+00:00,2026-08-23 05:10:08.846000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+158.220.118.251,CH,Levantis Hosting GmbH,1,1,43,2026-09-12 20:36:39.668000+00:00,2026-09-12 20:36:39.668000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+158.220.92.62,CH,Levantis Hosting GmbH,1,1,4,2025-11-15 18:34:53.438000+00:00,2025-11-15 18:34:53.438000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+159.138.138.163,HK,HUAWEI CLOUDS,1,1,3,2025-08-20 22:16:22.746000+00:00,2025-08-20 22:16:22.746000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+159.203.45.163,CA,"DigitalOcean, LLC",1,1,22,2026-01-06 15:17:58.948000+00:00,2026-01-06 15:17:58.948000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+159.223.129.200,US,,1,1,24,2025-08-08 15:02:39.379000+00:00,2025-08-08 15:02:39.379000+00:00,Kit A,single honeypot,IT Services with IMAP: Kit A ×1
+159.223.43.21,US,,1,1,18,2026-01-25 03:40:32.257000+00:00,2026-01-25 03:40:32.257000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+159.65.133.83,SG,"DigitalOcean, LLC",1,1,2,2026-01-16 23:35:09.759000+00:00,2026-01-16 23:35:09.759000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+159.65.91.36,GB,"DigitalOcean, LLC",1,1,22,2026-05-11 12:32:27.255000+00:00,2026-05-11 12:32:27.255000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+160.119.152.26,ZA,Bioniq-Ltd-AS,1,1,4,2025-11-27 23:14:52.626000+00:00,2025-11-27 23:14:52.626000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+160.187.247.119,,,1,1,43,2026-08-19 02:17:57.400000+00:00,2026-08-19 02:17:57.400000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+160.30.200.25,,,1,1,3,2025-08-27 14:35:06.708000+00:00,2025-08-27 14:35:06.708000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+161.120.171.142,US,,1,1,43,2026-09-23 02:47:44.215000+00:00,2026-09-23 02:47:44.215000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+161.153.19.15,US,,1,1,4,2025-11-25 03:09:55.658000+00:00,2025-11-25 03:09:55.658000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+161.33.223.242,US,,1,1,43,2026-09-04 20:59:56.500000+00:00,2026-09-04 20:59:56.500000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+161.97.153.92,US,,1,1,2,2026-01-14 13:00:32.615000+00:00,2026-01-14 13:00:32.615000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+161.97.155.111,US,,1,1,22,2026-02-06 20:24:16.541000+00:00,2026-02-06 20:24:16.541000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+161.97.173.163,FR,Contabo GmbH,1,1,2,2026-07-18 05:25:15.249000+00:00,2026-07-18 05:25:15.249000+00:00,Single,single honeypot,Cobham-decoy #2: Single ×1
+161.97.73.133,US,,1,1,4,2025-11-26 15:36:00.629000+00:00,2025-11-26 15:36:00.629000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+162.245.218.42,US,HostUS,1,1,22,2026-05-05 08:23:34.959000+00:00,2026-05-05 08:23:34.959000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+163.172.223.8,NL,Online S.a.s.,1,1,4,2025-10-03 09:06:27.639000+00:00,2025-10-03 09:06:27.639000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+163.192.106.160,US,,1,1,4,2025-10-30 13:13:27.033000+00:00,2025-10-30 13:13:27.033000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+163.5.148.15,FR,Epitech,1,1,22,2026-01-11 06:23:21.242000+00:00,2026-01-11 06:23:21.242000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+164.155.49.172,US,,1,1,22,2026-05-04 14:54:46.065000+00:00,2026-05-04 14:54:46.065000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+164.68.110.119,DE,Contabo GmbH,1,1,4,2025-10-19 21:17:41.168000+00:00,2025-10-19 21:17:41.168000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+164.68.118.218,FR,Contabo GmbH,1,1,22,2026-07-01 19:55:31.958000+00:00,2026-07-01 19:55:31.958000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+164.68.123.140,DE,Contabo GmbH,1,1,4,2025-11-02 09:15:39.306000+00:00,2025-11-02 09:15:39.306000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+164.68.127.52,DE,Contabo GmbH,1,1,22,2026-01-20 01:20:51.565000+00:00,2026-01-20 01:20:51.565000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+165.154.20.228,CA,Interhop Network SERVICES Inc.,1,1,22,2026-05-25 10:20:06.110000+00:00,2026-05-25 10:20:06.110000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+165.154.23.49,CA,Interhop Network SERVICES Inc.,1,1,4,2025-11-26 16:31:20.500000+00:00,2025-11-26 16:31:20.500000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+165.154.232.197,CA,Interhop Network SERVICES Inc.,1,1,3,2025-08-27 00:46:19.911000+00:00,2025-08-27 00:46:19.911000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+165.154.70.130,CA,Interhop Network SERVICES Inc.,1,1,22,2026-06-07 20:18:18.793000+00:00,2026-06-07 20:18:18.793000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+165.99.207.153,,,1,1,43,2026-09-12 23:52:40.537000+00:00,2026-09-12 23:52:40.537000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+167.172.89.156,SG,"DigitalOcean, LLC",1,1,3,2025-08-10 23:12:01.397000+00:00,2025-08-10 23:12:01.397000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+167.233.211.213,DE,Hetzner Online GmbH,1,1,43,2026-08-17 04:18:32.356000+00:00,2026-08-17 04:18:32.356000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+167.233.95.54,DE,Hetzner Online GmbH,1,1,43,2026-10-17 20:28:32.830000+00:00,2026-10-17 20:28:32.830000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+167.71.207.50,SG,"DigitalOcean, LLC",1,1,22,2026-07-11 18:51:07.898000+00:00,2026-07-11 18:51:07.898000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+167.86.73.135,DE,Contabo GmbH,1,1,22,2026-05-02 07:43:03.431000+00:00,2026-05-02 07:43:03.431000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+168.107.20.21,US,,1,1,2,2026-09-25 21:38:20.072000+00:00,2026-09-25 21:38:20.072000+00:00,Single,single honeypot,Malware Collection Type 2: Single ×1
+168.107.23.247,US,,1,1,4,2025-11-15 01:03:36.931000+00:00,2025-11-15 01:03:36.931000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+168.144.95.207,CA,,1,1,22,2026-06-02 07:07:58.706000+00:00,2026-06-02 07:07:58.706000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+169.239.75.138,CD,STANDARD-TELECOM-CONGO,1,1,43,2026-10-11 16:55:21.741000+00:00,2026-10-11 16:55:21.741000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+169.58.204.118,US,,1,1,43,2026-09-10 19:53:09.763000+00:00,2026-09-10 19:53:09.763000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+169.58.25.13,DE,Contabo GmbH,1,1,2,2026-07-17 04:43:56.591000+00:00,2026-07-17 04:43:56.591000+00:00,Single,single honeypot,Cobham-decoy #2: Single ×1
+169.58.57.214,US,,1,1,43,2026-08-19 07:15:47.916000+00:00,2026-08-19 07:15:47.916000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+170.205.30.29,US,,1,1,22,2026-01-28 19:24:48.519000+00:00,2026-01-28 19:24:48.519000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+171.241.64.190,VN,Viettel Group,1,1,20,2026-01-19 12:56:28.206000+00:00,2026-01-19 12:56:28.206000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+172.104.57.51,SG,"Linode, LLC",1,1,22,2026-01-18 08:47:02.333000+00:00,2026-01-18 08:47:02.333000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+172.185.40.47,FR,,1,1,22,2026-05-18 10:53:28.677000+00:00,2026-05-18 10:53:28.677000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+172.237.118.249,US,"Akamai Technologies, Inc.",1,1,22,2026-05-21 22:59:10.069000+00:00,2026-05-21 22:59:10.069000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+172.245.16.13,US,ColoCrossing,1,1,22,2026-04-17 02:57:24.676000+00:00,2026-04-17 02:57:24.676000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+172.245.195.47,US,ColoCrossing,1,1,43,2026-10-14 18:31:20.120000+00:00,2026-10-14 18:31:20.120000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+172.245.41.53,US,ColoCrossing,1,1,4,2025-10-30 11:56:11.200000+00:00,2025-10-30 11:56:11.200000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+172.245.61.84,US,ColoCrossing,1,1,3,2025-12-09 00:49:37.577000+00:00,2025-12-09 00:49:37.577000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+172.245.73.105,US,ColoCrossing,1,1,22,2025-12-17 02:18:44.840000+00:00,2025-12-17 02:18:44.840000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+173.212.238.133,DE,Contabo GmbH,1,1,3,2025-08-27 12:50:18.505000+00:00,2025-08-27 12:50:18.505000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+173.212.239.181,DE,Contabo GmbH,1,1,22,2026-02-05 19:04:15.869000+00:00,2026-02-05 19:04:15.869000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+173.214.169.116,US,"Interserver, Inc",1,1,4,2025-10-26 07:08:52.798000+00:00,2025-10-26 07:08:52.798000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+173.249.20.14,DE,Contabo GmbH,1,1,18,2026-01-24 21:44:51.582000+00:00,2026-01-24 21:44:51.582000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+173.249.43.245,DE,Contabo GmbH,1,1,2,2025-12-13 04:17:12.400000+00:00,2025-12-13 04:17:12.400000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+173.249.5.4,DE,Contabo GmbH,1,1,22,2026-01-24 12:38:46.439000+00:00,2026-01-24 12:38:46.439000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+174.138.55.42,US,"DigitalOcean, LLC",1,1,3,2025-08-14 05:51:12.146000+00:00,2025-08-14 05:51:12.146000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+175.178.176.227,CN,,1,1,28,2026-08-02 18:10:14.358000+00:00,2026-08-02 18:10:14.358000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+175.178.19.239,CN,,1,1,4,2025-11-30 01:07:41.180000+00:00,2025-11-30 01:07:41.180000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+175.200.104.40,KR,Korea Telecom,1,1,22,2026-06-05 23:28:47.680000+00:00,2026-06-05 23:28:47.680000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+176.112.128.143,RU,JSC ER-Telecom Holding,1,1,20,2026-06-19 20:24:27.469000+00:00,2026-06-19 20:24:27.469000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+176.65.132.193,DE,Diogelo Ltd.,1,1,22,2026-02-27 10:03:04.812000+00:00,2026-02-27 10:03:04.812000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+176.65.139.33,DE,,1,1,22,2026-06-24 09:25:19.082000+00:00,2026-06-24 09:25:19.082000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+177.70.2.220,BR,Desenvolve Solucoes de Internet Ltda,1,1,2,2026-02-01 05:08:04.515000+00:00,2026-02-01 05:08:04.515000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+178.128.84.133,SG,"DigitalOcean, LLC",1,1,22,2026-05-11 08:23:27.189000+00:00,2026-05-11 08:23:27.189000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+178.17.53.215,DE,TigrisNet,1,1,22,2026-04-21 00:47:07.674000+00:00,2026-04-21 00:47:07.674000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+178.18.251.197,DE,Inline Internet Online Dienste GmbH,1,1,4,2025-11-19 03:43:55.286000+00:00,2025-11-19 03:43:55.286000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+178.79.179.5,GB,"Linode, LLC",1,1,3,2025-08-16 08:07:07.023000+00:00,2025-08-16 08:07:07.023000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+179.124.29.29,BR,ZUM TELECOM LTDA- ME,1,1,22,2026-04-16 00:20:30.567000+00:00,2026-04-16 00:20:30.567000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+179.49.190.108,CO,,1,1,22,2026-05-09 16:10:24.737000+00:00,2026-05-09 16:10:24.737000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+180.189.174.146,TL,"Timor Telecom, SA",1,1,22,2026-06-06 05:09:29.214000+00:00,2026-06-06 05:09:29.214000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+180.76.172.156,CN,"Beijing Baidu Netcom Science and Technology Co., Ltd.",1,1,22,2026-05-16 14:42:28.824000+00:00,2026-05-16 14:42:28.824000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+180.76.228.201,CN,"Beijing Baidu Netcom Science and Technology Co., Ltd.",1,1,4,2025-10-06 12:29:20.031000+00:00,2025-10-06 12:29:20.031000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+180.93.32.67,VN,Saigon Postel Corporation,1,1,22,2026-05-07 14:46:40.117000+00:00,2026-05-07 14:46:40.117000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+181.104.43.225,AR,,1,1,22,2026-05-07 01:07:54.223000+00:00,2026-05-07 01:07:54.223000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+181.188.147.142,BO,Telefónica Celular de Bolivia S.A.,1,1,3,2025-08-10 23:57:39.484000+00:00,2025-08-10 23:57:39.484000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+183.221.0.223,CN,Guangdong Mobile Communication Co.Ltd.,1,1,22,2026-05-28 17:42:37.752000+00:00,2026-05-28 17:42:37.752000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+183.222.14.242,CN,"China Mobile Communications Group Co., Ltd.",1,1,22,2026-07-11 14:18:36.596000+00:00,2026-07-11 14:18:36.596000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+183.222.14.40,CN,Guangdong Mobile Communication Co.Ltd.,1,1,20,2026-06-20 19:54:16.892000+00:00,2026-06-20 19:54:16.892000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+183.222.14.9,CN,"China Mobile Communications Group Co., Ltd.",1,1,22,2026-07-10 03:58:28.586000+00:00,2026-07-10 03:58:28.586000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+183.230.224.120,CN,Guangdong Mobile Communication Co.Ltd.,1,1,22,2026-02-07 22:04:28.097000+00:00,2026-02-07 22:04:28.097000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+183.56.235.140,CN,CHINANET Guangdong province network,1,1,22,2026-05-03 20:10:26.431000+00:00,2026-05-03 20:10:26.431000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+183.80.122.93,VN,FPT Telecom Company,1,1,18,2026-08-28 21:09:48.557000+00:00,2026-08-28 21:09:48.557000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×1
+183.87.153.86,IN,Syscon Infoway Pvt. Ltd.,1,1,4,2025-09-05 16:30:50.439000+00:00,2025-09-05 16:30:50.439000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+184.58.95.109,US,Charter Communications Inc,1,1,43,2026-09-18 10:50:54.018000+00:00,2026-09-18 10:50:54.018000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+185.113.10.179,TR,Ict Bulut Bilisim A.s.,1,1,22,2026-05-19 04:26:01.943000+00:00,2026-05-19 04:26:01.943000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+185.131.53.100,ES,LeapSwitch Networks Pvt Ltd,1,1,4,2025-10-18 21:05:10.991000+00:00,2025-10-18 21:05:10.991000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+185.138.88.86,RU,Yug-Link Ltd.,1,1,3,2025-12-09 21:13:56.870000+00:00,2025-12-09 21:13:56.870000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+185.162.250.72,DE,netcup GmbH,1,1,22,2026-05-30 01:29:45.562000+00:00,2026-05-30 01:29:45.562000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+185.184.121.27,GB,Six Degrees Technology Group Limited,1,1,3,2025-08-16 12:25:51.577000+00:00,2025-08-16 12:25:51.577000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+185.211.94.76,CH,Xelon AG,1,1,22,2026-04-17 09:13:44.104000+00:00,2026-04-17 09:13:44.104000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #1: Kit A ×1
+185.213.165.43,IR,Toesegaran Shabakeh Arseh Novin Ltd,1,1,3,2025-08-27 23:05:44.234000+00:00,2025-08-27 23:05:44.234000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+185.241.32.124,DE,,1,1,22,2026-04-22 23:35:12.614000+00:00,2026-04-22 23:35:12.614000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+185.243.41.144,JP,KLAYER LLC,1,1,22,2026-05-22 12:46:37.741000+00:00,2026-05-22 12:46:37.741000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+185.251.90.247,RU,Sprinthost.ru LLC,1,1,22,2026-01-14 06:44:16.001000+00:00,2026-01-14 06:44:16.001000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+185.252.232.247,US,"QuickPacket, LLC",1,1,22,2026-03-15 00:19:57.753000+00:00,2026-03-15 00:19:57.753000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+185.255.91.107,IR,,1,1,4,2025-10-03 11:35:18.995000+00:00,2025-10-03 11:35:18.995000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+185.50.38.193,IR,Green Web Samaneh Novin Co Ltd,1,1,4,2025-09-15 15:51:06.525000+00:00,2025-09-15 15:51:06.525000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+185.60.136.87,IR,Soroush Rasanheh Company Ltd,1,1,22,2026-07-22 18:40:46.875000+00:00,2026-07-22 18:40:46.875000+00:00,Kit A,single honeypot,seatel-vsat-satcom-Bahrain: Kit A ×1
+187.121.162.224,BR,ZAAZ PROVEDOR DE INTERNET E TELECOMUNICACOES LTDA,1,1,2,2026-07-17 10:12:26.779000+00:00,2026-07-17 10:12:26.779000+00:00,Single,single honeypot,Cobham-decoy #2: Single ×1
+187.35.3.226,BR,TELEFÔNICA BRASIL S.A,1,1,22,2026-05-16 11:17:59.699000+00:00,2026-05-16 11:17:59.699000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+188.166.164.211,DE,"DigitalOcean, LLC",1,1,4,2025-09-27 04:11:44.256000+00:00,2025-09-27 04:11:44.256000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+188.239.21.7,UA,Nashnet Ltd,1,1,4,2025-09-05 05:59:27.787000+00:00,2025-09-05 05:59:27.787000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+188.239.23.145,UA,Nashnet Ltd,1,1,22,2026-05-20 15:40:37.840000+00:00,2026-05-20 15:40:37.840000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+190.129.122.221,BO,Entel S.A. - EntelNet,1,1,2,2026-01-13 11:10:41.341000+00:00,2026-01-13 11:10:41.341000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+190.2.135.111,NL,WorldStream B.V.,1,1,22,2026-05-03 00:16:49.814000+00:00,2026-05-03 00:16:49.814000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+190.92.243.48,AR,Desarrollos Digitales de Pulsar Consulting,1,1,3,2025-08-09 12:16:23.219000+00:00,2025-08-09 12:16:23.219000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+192.227.187.62,HR,ColoCrossing,1,1,4,2025-11-29 01:09:54.339000+00:00,2025-11-29 01:09:54.339000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+192.3.96.60,US,ColoCrossing,1,1,2,2026-01-29 18:48:03.071000+00:00,2026-01-29 18:48:03.071000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+192.34.62.126,US,"DigitalOcean, LLC",1,1,4,2026-07-05 03:34:52.327000+00:00,2026-07-05 03:34:52.327000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×1
+192.99.83.131,CA,OVH SAS,1,1,3,2025-08-21 12:08:48.016000+00:00,2025-08-21 12:08:48.016000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+193.164.155.42,DK,BullGuard ApS,1,1,4,2026-03-15 11:19:36.559000+00:00,2026-03-15 11:19:36.559000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+193.187.148.155,RO,Pronet Solutii IT SRL,1,1,4,2025-11-27 06:19:54.404000+00:00,2025-11-27 06:19:54.404000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+193.202.11.112,US,UGB Hosting OU,1,1,22,2026-06-30 06:36:00.416000+00:00,2026-06-30 06:36:00.416000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+193.221.201.95,BR,M247 Ltd,1,1,24,2025-12-11 15:56:16.537000+00:00,2025-12-11 15:56:16.537000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+193.233.233.229,RU,OOO FREEnet Group,1,1,22,2026-04-24 00:10:15.796000+00:00,2026-04-24 00:10:15.796000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+193.34.145.246,DE,Contabo GmbH,1,1,2,2026-01-30 07:43:06.973000+00:00,2026-01-30 07:43:06.973000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+194.146.13.28,US,TerraTransit AG,1,1,4,2025-10-21 20:39:19.341000+00:00,2025-10-21 20:39:19.341000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+194.163.178.120,FR,Contabo GmbH,1,1,22,2026-07-05 02:26:01.849000+00:00,2026-07-05 02:26:01.849000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+194.163.183.223,DE,PlusServer GmbH,1,1,22,2026-03-14 14:23:06.818000+00:00,2026-03-14 14:23:06.818000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+194.233.81.74,SG,Contabo Asia Private Limited,1,1,22,2026-07-02 21:51:57.154000+00:00,2026-07-02 21:51:57.154000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+194.233.84.90,DE,PlusServer GmbH,1,1,43,2026-09-21 09:56:10.315000+00:00,2026-09-21 09:56:10.315000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+194.87.129.212,RU,Flex Ltd.,1,1,22,2026-06-09 10:35:22.020000+00:00,2026-06-09 10:35:22.020000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+194.87.44.21,CZ,"Timeweb, LLP",1,1,22,2026-04-17 20:30:21.998000+00:00,2026-04-17 20:30:21.998000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #1: Kit A ×1
+195.26.240.95,GB,Kcom,1,1,22,2026-01-21 04:53:57.729000+00:00,2026-01-21 04:53:57.729000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+197.220.93.115,SO,,1,1,4,2025-09-07 15:55:46.507000+00:00,2025-09-07 15:55:46.507000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+198.163.207.24,US,Windstream Communications LLC,1,1,22,2026-05-31 01:09:15.128000+00:00,2026-05-31 01:09:15.128000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+198.44.58.153,US,HostPapa,1,1,43,2026-09-16 07:46:10.927000+00:00,2026-09-16 07:46:10.927000+00:00,Kit B,single honeypot,Cobham-decoy #2: Kit B ×1
+198.50.202.93,CA,OVH SAS,1,1,22,2026-05-31 00:00:21.400000+00:00,2026-05-31 00:00:21.400000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+199.21.150.105,CA,Altima Telecom,1,1,22,2026-05-02 09:19:43.996000+00:00,2026-05-02 09:19:43.996000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+2.26.0.198,GB,EE Limited,1,1,22,2026-04-24 16:27:09.538000+00:00,2026-04-24 16:27:09.538000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+2.26.64.195,GB,EE Limited,1,1,43,2026-09-28 16:48:34.803000+00:00,2026-09-28 16:48:34.803000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+2.26.82.219,GB,EE Limited,1,1,22,2026-04-17 09:53:10.456000+00:00,2026-04-17 09:53:10.456000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+2.27.22.122,GB,EE Limited,1,1,4,2026-05-22 07:48:16.310000+00:00,2026-05-22 07:48:16.310000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+2.27.36.23,GB,EE Limited,1,1,22,2026-06-05 00:16:36.199000+00:00,2026-06-05 00:16:36.199000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+20.244.28.141,US,,1,1,43,2026-09-19 10:48:17.321000+00:00,2026-09-19 10:48:17.321000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+20.44.56.77,IN,Microsoft Corporation,1,1,3,2025-12-10 14:20:45.119000+00:00,2025-12-10 14:20:45.119000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+200.144.255.61,BR,UNIVERSIDADE DE SAO PAULO,1,1,3,2025-12-08 03:10:37.761000+00:00,2025-12-08 03:10:37.761000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+202.10.37.135,ID,BOLEHNET-ASN,1,1,43,2026-09-01 08:52:22.671000+00:00,2026-09-01 08:52:22.671000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+202.148.54.19,IN,Web Werks India Pvt. Ltd.,1,1,4,2025-10-16 19:08:31.940000+00:00,2025-10-16 19:08:31.940000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+202.165.29.219,MY,VADS Managed Business Internet Service Provider,1,1,4,2025-11-19 21:23:57.215000+00:00,2025-11-19 21:23:57.215000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+202.64.45.197,HK,HKBN Enterprise Solutions HK Limited,1,1,4,2025-11-14 01:58:52.518000+00:00,2025-11-14 01:58:52.518000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+203.150.107.37,TH,Internet Thailand Company Limited,1,1,4,2025-11-28 06:53:38.556000+00:00,2025-11-28 06:53:38.556000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+203.150.107.92,TH,Internet Thailand Company Limited,1,1,4,2025-11-28 11:40:39.158000+00:00,2025-11-28 11:40:39.158000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+203.19.35.149,HK,CHINA TELECOM (AMERICAS) CORPORATION,1,1,3,2025-12-10 00:38:04.530000+00:00,2025-12-10 00:38:04.530000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+203.202.242.20,BD,aamra networks limited,1,1,4,2025-11-18 10:29:34.736000+00:00,2025-11-18 10:29:34.736000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+204.44.119.241,US,QuadraNet Enterprises LLC,1,1,4,2025-11-02 07:05:41.240000+00:00,2025-11-02 07:05:41.240000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+207.180.206.112,DE,Contabo GmbH,1,1,3,2025-08-09 00:14:57.548000+00:00,2025-08-09 00:14:57.548000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+207.180.211.48,DE,Contabo GmbH,1,1,43,2026-10-14 11:10:58.756000+00:00,2026-10-14 11:10:58.756000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+207.180.227.46,DE,Contabo GmbH,1,1,22,2026-01-15 14:27:36.436000+00:00,2026-01-15 14:27:36.436000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+207.244.227.72,US,CDM,1,1,22,2026-01-05 03:17:31.037000+00:00,2026-01-05 03:17:31.037000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+207.244.238.54,US,CDM,1,1,22,2026-02-02 02:23:36.015000+00:00,2026-02-02 02:23:36.015000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+207.244.246.29,US,CDM,1,1,26,2025-10-23 20:36:31.160000+00:00,2025-10-23 20:36:31.160000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #1: Kit A ×1
+207.56.137.108,US,"NTT America, Inc.",1,1,20,2026-02-12 08:51:44.986000+00:00,2026-02-12 08:51:44.986000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+209.126.5.94,US,CDM,1,1,4,2025-11-03 22:17:45.531000+00:00,2025-11-03 22:17:45.531000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+209.150.154.213,PK,CMPak Limited,1,1,22,2025-08-07 22:32:36.551000+00:00,2025-08-07 22:32:36.551000+00:00,Partial,single honeypot,IT Services with IMAP: Partial ×1
+209.99.185.239,US,Tutis Web Services,1,1,22,2026-05-15 23:26:00.860000+00:00,2026-05-15 23:26:00.860000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+211.101.234.227,CN,,1,1,22,2026-05-19 09:47:53.632000+00:00,2026-05-19 09:47:53.632000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+211.223.20.187,KR,Korea Telecom,1,1,4,2026-09-21 12:16:02.090000+00:00,2026-09-21 12:16:02.090000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+212.127.91.32,PL,Korbank S. A.,1,1,20,2026-06-25 15:07:30.474000+00:00,2026-06-25 15:07:30.474000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×1
+212.18.114.31,,,1,1,43,2026-09-26 22:58:30.984000+00:00,2026-09-26 22:58:30.984000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+212.227.3.33,DE,1&1 Ionos Se,1,1,4,2025-11-02 11:43:53.399000+00:00,2025-11-02 11:43:53.399000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+212.227.76.145,DE,1&1 Ionos Se,1,1,4,2025-11-01 23:15:01.918000+00:00,2025-11-01 23:15:01.918000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+213.136.68.104,DE,Contabo GmbH,1,1,22,2026-04-26 21:39:33.333000+00:00,2026-04-26 21:39:33.333000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+213.136.94.215,DE,Contabo GmbH,1,1,22,2026-06-11 08:18:04.917000+00:00,2026-06-11 08:18:04.917000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+213.160.170.164,SK,"Slovak Telecom, a. s.",1,1,20,2026-05-13 05:29:28.654000+00:00,2026-05-13 05:29:28.654000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+213.199.36.187,GB,Kcom,1,1,22,2026-05-02 20:28:16.272000+00:00,2026-05-02 20:28:16.272000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+216.144.224.186,US,QuadraNet Enterprises LLC,1,1,4,2026-05-22 22:21:12.735000+00:00,2026-05-22 22:21:12.735000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+216.194.172.68,US,"InMotion Hosting, Inc.",1,1,22,2026-05-25 17:44:32.489000+00:00,2026-05-25 17:44:32.489000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+216.45.50.28,US,QuadraNet Enterprises LLC,1,1,20,2026-02-27 19:25:30.830000+00:00,2026-02-27 19:25:30.830000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+217.145.229.33,IQ,"Hilal Al-Rafidain for Computer and Internet Services Co., Ltd.",1,1,3,2025-08-08 12:11:11.620000+00:00,2025-08-08 12:11:11.620000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+217.154.173.63,GB,Kcom,1,1,22,2026-06-08 13:50:59.145000+00:00,2026-06-08 13:50:59.145000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+217.154.34.179,GB,Kcom,1,1,4,2025-11-27 02:02:04.552000+00:00,2025-11-27 02:02:04.552000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.154.8.107,GB,Kcom,1,1,4,2025-11-02 17:38:16.164000+00:00,2025-11-02 17:38:16.164000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.154.8.112,GB,Kcom,1,1,4,2025-11-02 21:49:28.235000+00:00,2025-11-02 21:49:28.235000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.154.8.116,GB,Kcom,1,1,4,2025-11-01 12:16:54.082000+00:00,2025-11-01 12:16:54.082000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.154.8.28,GB,Kcom,1,1,4,2025-11-01 18:50:33.091000+00:00,2025-11-01 18:50:33.091000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+217.154.8.33,GB,Kcom,1,1,4,2025-11-02 17:23:39.187000+00:00,2025-11-02 17:23:39.187000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.154.8.45,GB,Kcom,1,1,4,2025-11-02 21:43:56.203000+00:00,2025-11-02 21:43:56.203000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+217.154.8.48,GB,Kcom,1,1,4,2025-11-01 20:50:36.109000+00:00,2025-11-01 20:50:36.109000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.154.92.76,GB,Kcom,1,1,4,2026-05-13 21:26:19.751000+00:00,2026-05-13 21:26:19.751000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+217.216.34.160,ES,"Vodafone Ono, S.A.",1,1,22,2026-01-31 22:52:39.561000+00:00,2026-01-31 22:52:39.561000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+217.216.48.192,ES,"Vodafone Ono, S.A.",1,1,3,2025-12-11 07:20:53.570000+00:00,2025-12-11 07:20:53.570000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+217.76.53.152,SE,Media Network i Halmstad AB,1,1,24,2025-12-10 05:17:52.172000+00:00,2025-12-10 05:17:52.172000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+217.77.8.180,GB,7 Global Systems Limited,1,1,2,2026-01-23 21:10:15.291000+00:00,2026-01-23 21:10:15.291000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+219.77.229.243,HK,HKT Limited,1,1,43,2026-09-04 02:19:44.278000+00:00,2026-09-04 02:19:44.278000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+220.78.169.134,KR,Korea Telecom,1,1,4,2025-11-29 10:26:31.890000+00:00,2025-11-29 10:26:31.890000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+220.79.229.219,KR,Korea Telecom,1,1,4,2026-07-30 01:07:02.649000+00:00,2026-07-30 01:07:02.649000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+221.2.171.138,CN,CHINA UNICOM China169 Backbone,1,1,22,2026-04-20 17:53:36.904000+00:00,2026-04-20 17:53:36.904000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+222.134.147.66,CN,CHINA UNICOM China169 Backbone,1,1,22,2026-07-12 19:44:21.765000+00:00,2026-07-12 19:44:21.765000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+222.89.169.98,CN,"No.31,Jin-rong Street",1,1,10,2026-01-18 01:12:44.785000+00:00,2026-01-18 01:12:44.785000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+223.123.65.116,CN,Guangdong Mobile Communication Co.Ltd.,1,1,12,2026-07-31 04:31:45.732000+00:00,2026-07-31 04:31:45.732000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+223.85.102.138,CN,"China Mobile Communications Group Co., Ltd.",1,1,22,2026-06-29 19:05:18.160000+00:00,2026-06-29 19:05:18.160000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+223.85.103.114,CN,Guangdong Mobile Communication Co.Ltd.,1,1,22,2026-05-18 00:21:47.824000+00:00,2026-05-18 00:21:47.824000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+23.134.76.12,US,Fourplex Telecom LLC,1,1,22,2026-07-04 01:37:36.310000+00:00,2026-07-04 01:37:36.310000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+23.147.232.237,JP,Lamhosting LLC,1,1,43,2026-08-26 22:25:02.770000+00:00,2026-08-26 22:25:02.770000+00:00,Kit B,single honeypot,Cobham-decoy #2: Kit B ×1
+23.147.8.240,US,,1,1,3,2025-08-14 07:21:25.921000+00:00,2025-08-14 07:21:25.921000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+23.158.56.159,US,,1,1,4,2025-10-22 02:54:27.392000+00:00,2025-10-22 02:54:27.392000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+23.230.179.59,US,EGIHosting,1,1,4,2025-11-15 01:29:24.959000+00:00,2025-11-15 01:29:24.959000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+23.94.192.15,US,ColoCrossing,1,1,43,2026-09-24 19:32:36.321000+00:00,2026-09-24 19:32:36.321000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+24.228.142.216,US,Cablevision Systems Corp.,1,1,41,2026-08-02 19:36:18.485000+00:00,2026-08-02 19:36:18.485000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+24.65.233.27,CA,Shaw Communications Inc.,1,1,2,2026-01-23 02:22:57.573000+00:00,2026-01-23 02:22:57.573000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+24.84.30.89,CA,Shaw Communications Inc.,1,1,22,2026-05-16 09:34:40.769000+00:00,2026-05-16 09:34:40.769000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+27.43.197.205,CN,China Unicom IP network China169 Guangdong province,1,1,4,2025-11-18 17:51:09.635000+00:00,2025-11-18 17:51:09.635000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+27.68.7.239,VN,Viettel Group,1,1,4,2025-10-14 09:23:36.700000+00:00,2025-10-14 09:23:36.700000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+31.206.48.120,TR,Vodafone Net Iletisim Hizmetleri Anonim Sirketi,1,1,22,2026-01-20 02:35:20.199000+00:00,2026-01-20 02:35:20.199000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+31.56.233.153,IR,Aria Shatel Company Ltd,1,1,20,2026-04-20 18:05:58.325000+00:00,2026-04-20 18:05:58.325000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+31.58.216.82,IR,Aria Shatel Company Ltd,1,1,43,2026-09-04 11:40:33.453000+00:00,2026-09-04 11:40:33.453000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+31.70.71.228,GB,EE Limited,1,1,2,2026-05-31 20:10:23.939000+00:00,2026-05-31 20:10:23.939000+00:00,Single,single honeypot,Cobham-decoy #1: Single ×1
+31.76.27.231,GB,EE Limited,1,1,22,2026-06-16 11:49:17.271000+00:00,2026-06-16 11:49:17.271000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+34.122.222.227,US,Google LLC,1,1,20,2026-05-10 02:18:59.661000+00:00,2026-05-10 02:18:59.661000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+34.148.212.160,US,,1,1,3,2025-08-18 16:00:38.490000+00:00,2025-08-18 16:00:38.490000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+34.150.78.228,US,,1,1,22,2026-05-27 10:19:58.602000+00:00,2026-05-27 10:19:58.602000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+34.171.29.151,US,,1,1,24,2025-10-23 22:35:21.359000+00:00,2025-10-23 22:35:21.359000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #1: Partial ×1
+34.44.64.77,US,,1,1,22,2026-02-01 17:10:19.177000+00:00,2026-02-01 17:10:19.177000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+34.60.107.64,US,,1,1,22,2026-02-05 10:23:00.143000+00:00,2026-02-05 10:23:00.143000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+35.194.141.75,,Google LLC,1,1,22,2026-04-28 04:37:30.323000+00:00,2026-04-28 04:37:30.323000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+35.200.56.153,,Google LLC,1,1,4,2025-09-12 13:00:26.210000+00:00,2025-09-12 13:00:26.210000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+35.220.145.121,,Google LLC,1,1,43,2026-09-19 11:55:56.644000+00:00,2026-09-19 11:55:56.644000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+35.226.238.205,US,Google LLC,1,1,22,2026-05-27 15:33:07.079000+00:00,2026-05-27 15:33:07.079000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+35.229.68.170,US,Google LLC,1,1,22,2026-04-25 20:27:43.067000+00:00,2026-04-25 20:27:43.067000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+36.137.121.41,CN,Guangdong Mobile Communication Co.Ltd.,1,1,2,2026-04-16 22:59:53.554000+00:00,2026-04-16 22:59:53.554000+00:00,Single,single honeypot,SCADA DNP3 S7 SERVER #2: Single ×1
+36.50.55.247,,,1,1,4,2025-10-18 12:32:49.400000+00:00,2025-10-18 12:32:49.400000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+37.202.134.169,IR,Aria Shatel Company Ltd,1,1,4,2026-09-23 03:36:09.513000+00:00,2026-09-23 03:36:09.513000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+37.202.236.248,IR,Aria Shatel Company Ltd,1,1,22,2026-02-12 03:46:40.719000+00:00,2026-02-12 03:46:40.719000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+37.60.250.29,US,SingleHop LLC,1,1,2,2026-02-02 02:43:20.844000+00:00,2026-02-02 02:43:20.844000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+38.175.197.208,US,Cogent Communications,1,1,2,2026-01-14 10:33:53.142000+00:00,2026-01-14 10:33:53.142000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+38.210.202.116,US,Cogent Communications,1,1,18,2026-05-30 11:55:54.568000+00:00,2026-05-30 11:55:54.568000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+38.210.202.118,US,Cogent Communications,1,1,2,2026-05-30 11:55:51.164000+00:00,2026-05-30 11:55:51.164000+00:00,Single,single honeypot,Cobham-decoy #1: Single ×1
+38.210.202.122,US,Cogent Communications,1,1,2,2026-05-30 11:55:52.990000+00:00,2026-05-30 11:55:52.990000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+38.242.137.114,US,Cogent Communications,1,1,4,2025-08-31 06:02:54.065000+00:00,2025-08-31 06:02:54.065000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+38.242.245.62,US,Cogent Communications,1,1,4,2025-11-16 01:14:41.575000+00:00,2025-11-16 01:14:41.575000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+38.248.14.48,US,Cogent Communications,1,1,22,2026-01-10 02:16:01.347000+00:00,2026-01-10 02:16:01.347000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+38.250.116.234,US,Cogent Communications,1,1,22,2026-04-25 18:43:55.600000+00:00,2026-04-25 18:43:55.600000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+38.76.202.203,US,Cogent Communications,1,1,2,2026-05-29 04:36:55.344000+00:00,2026-05-29 04:36:55.344000+00:00,Single,single honeypot,Cobham-decoy #1: Single ×1
+39.109.116.214,HK,HK Kwaifong Group Limited,1,1,4,2026-09-30 08:56:27.883000+00:00,2026-09-30 08:56:27.883000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+39.75.228.207,CN,CHINA UNICOM China169 Backbone,1,1,22,2026-05-27 02:51:26.448000+00:00,2026-05-27 02:51:26.448000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+4.157.103.10,US,"Level 3 Parent, LLC",1,1,4,2025-10-19 22:15:01.928000+00:00,2025-10-19 22:15:01.928000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+41.110.4.106,DZ,Telecom Algeria,1,1,20,2026-04-25 22:50:37.606000+00:00,2026-04-25 22:50:37.606000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+42.114.171.125,VN,The Corporation for Financing & Promoting Technology,1,1,22,2026-06-22 11:15:41.497000+00:00,2026-06-22 11:15:41.497000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+42.114.171.240,VN,The Corporation for Financing & Promoting Technology,1,1,3,2025-08-19 05:35:37.923000+00:00,2025-08-19 05:35:37.923000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+42.114.214.254,VN,The Corporation for Financing & Promoting Technology,1,1,18,2026-06-01 12:31:14.845000+00:00,2026-06-01 12:31:14.845000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+42.115.238.229,VN,The Corporation for Financing & Promoting Technology,1,1,16,2026-01-13 07:48:15.863000+00:00,2026-01-13 07:48:15.863000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+42.117.64.81,VN,The Corporation for Financing & Promoting Technology,1,1,2,2026-01-12 11:11:06.818000+00:00,2026-01-12 11:11:06.818000+00:00,Single,single honeypot,seatel-vsat-satcom: Single ×1
+42.192.3.101,CN,,1,1,4,2025-09-29 04:18:44.249000+00:00,2025-09-29 04:18:44.249000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+43.128.73.165,JP,,1,1,4,2025-09-26 02:34:20.575000+00:00,2025-09-26 02:34:20.575000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+43.153.136.205,JP,,1,1,4,2025-11-04 11:41:47.018000+00:00,2025-11-04 11:41:47.018000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+43.153.32.173,JP,,1,1,3,2025-08-09 13:30:33+00:00,2025-08-09 13:30:33+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+43.155.188.244,JP,,1,1,4,2025-09-26 09:55:25.695000+00:00,2025-09-26 09:55:25.695000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+43.156.134.227,JP,,1,1,4,2025-10-08 01:01:32.495000+00:00,2025-10-08 01:01:32.495000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+43.157.205.102,JP,,1,1,4,2025-09-27 03:54:15.595000+00:00,2025-09-27 03:54:15.595000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+43.162.97.54,JP,,1,1,20,2026-02-09 11:48:07.447000+00:00,2026-02-09 11:48:07.447000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+43.165.170.19,JP,,1,1,22,2026-06-30 01:07:08.329000+00:00,2026-06-30 01:07:08.329000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+43.167.167.54,JP,,1,1,43,2026-08-20 20:01:09.195000+00:00,2026-08-20 20:01:09.195000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+43.167.198.92,JP,,1,1,43,2026-09-17 01:40:51.730000+00:00,2026-09-17 01:40:51.730000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+43.224.249.34,TW,Cloudie Limited,1,1,4,2025-11-02 10:07:09.658000+00:00,2025-11-02 10:07:09.658000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+43.251.17.236,HK,Cloudie Limited,1,1,4,2025-11-24 04:50:17.992000+00:00,2025-11-24 04:50:17.992000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+45.131.108.170,DE,Metaliance ISP Systems e.k,1,1,3,2025-08-21 14:01:18.508000+00:00,2025-08-21 14:01:18.508000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+45.142.193.171,DE,Bunea TELECOM SRL,1,1,4,2025-11-21 01:23:36.888000+00:00,2025-11-21 01:23:36.888000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+45.148.125.145,US,DediPath,1,1,22,2026-06-11 08:13:38.513000+00:00,2026-06-11 08:13:38.513000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+45.154.35.133,DE,Initq Ltd.,1,1,20,2026-01-18 20:35:36.072000+00:00,2026-01-18 20:35:36.072000+00:00,Partial,single honeypot,seatel-vsat-satcom: Partial ×1
+45.156.24.224,RU,,1,1,22,2026-05-06 13:17:04.154000+00:00,2026-05-06 13:17:04.154000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+45.187.193.10,BR,,1,1,20,2026-05-01 15:49:24.675000+00:00,2026-05-01 15:49:24.675000+00:00,Partial,single honeypot,Cobham-decoy #1: Partial ×1
+45.195.200.157,NL,BitCommand LLC,1,1,43,2026-08-19 15:04:04.753000+00:00,2026-08-19 15:04:04.753000+00:00,Kit B,single honeypot,Cobham-decoy #2: Kit B ×1
+45.196.196.228,ZA,DXTL Tseung Kwan O Service,1,1,22,2026-05-04 06:43:02.939000+00:00,2026-05-04 06:43:02.939000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+45.197.144.13,ZA,ABCDE GROUP COMPANY LIMITED,1,1,4,2025-09-29 09:49:55.413000+00:00,2025-09-29 09:49:55.413000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+45.225.135.20,PA,Rack Sphere Hosting S.A.,1,1,4,2026-10-10 07:56:13.726000+00:00,2026-10-10 07:56:13.726000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+45.32.150.104,FR,"Choopa, LLC",1,1,43,2026-09-23 01:49:41.559000+00:00,2026-09-23 01:49:41.559000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+45.43.60.98,HK,UCloud (HK) Holdings Group Limited,1,1,43,2026-09-30 13:45:39.336000+00:00,2026-09-30 13:45:39.336000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+45.61.173.86,GB,"Scaleblade, Ltd.",1,1,22,2026-07-03 19:19:56.238000+00:00,2026-07-03 19:19:56.238000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+45.66.228.24,DE,,1,1,22,2026-05-20 07:16:06.429000+00:00,2026-05-20 07:16:06.429000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+45.78.235.65,CA,FIBERNETICS CORPORATION,1,1,22,2026-02-01 06:53:47.848000+00:00,2026-02-01 06:53:47.848000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+45.78.235.66,CA,FIBERNETICS CORPORATION,1,1,2,2026-02-01 12:43:24.869000+00:00,2026-02-01 12:43:24.869000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+45.78.235.68,CA,FIBERNETICS CORPORATION,1,1,22,2026-01-31 23:14:46.555000+00:00,2026-01-31 23:14:46.555000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+45.8.133.228,DE,GTT Communications Inc.,1,1,22,2026-05-18 03:51:23.716000+00:00,2026-05-18 03:51:23.716000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+45.8.22.190,ES,Xtudio Networks S.L.U.,1,1,24,2025-08-08 15:28:48.010000+00:00,2025-08-08 15:28:48.010000+00:00,Kit A,single honeypot,IT Services with IMAP: Kit A ×1
+45.90.13.191,NL,Legaco Networks B.V.,1,1,22,2026-06-28 00:00:28.596000+00:00,2026-06-28 00:00:28.596000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+45.92.173.138,RU,LLC Baxet,1,1,22,2026-05-04 19:36:37.962000+00:00,2026-05-04 19:36:37.962000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+46.101.83.206,GB,"DigitalOcean, LLC",1,1,4,2025-10-27 11:48:51.430000+00:00,2025-10-27 11:48:51.430000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+46.21.85.75,IR,Andishe Sabz Khazar Co. P.j.s.,1,1,4,2025-11-16 13:35:29.536000+00:00,2025-11-16 13:35:29.536000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+46.224.50.201,IR,Dadeh Gostar Asr Novin P.J.S. Co.,1,1,3,2025-12-08 14:09:12.039000+00:00,2025-12-08 14:09:12.039000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+46.249.99.236,AU,"DCS Pacific Star, LLC",1,1,22,2026-04-25 10:03:01.773000+00:00,2026-04-25 10:03:01.773000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+46.62.201.86,IR,Pars Online PJS,1,1,22,2026-04-30 22:29:39.798000+00:00,2026-04-30 22:29:39.798000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+47.105.49.57,CN,"Hangzhou Alibaba Advertising Co.,Ltd.",1,1,3,2025-12-09 12:43:51.432000+00:00,2025-12-09 12:43:51.432000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+47.16.97.10,US,Cablevision Systems Corp.,1,1,4,2026-08-05 17:53:16.835000+00:00,2026-08-05 17:53:16.835000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+47.80.17.251,US,,1,1,22,2026-01-30 23:00:48.136000+00:00,2026-01-30 23:00:48.136000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+47.87.133.38,US,,1,1,2,2026-02-03 00:47:17.060000+00:00,2026-02-03 00:47:17.060000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+49.12.132.25,DE,Hetzner Online GmbH,1,1,22,2026-06-16 05:30:57.416000+00:00,2026-06-16 05:30:57.416000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+5.101.85.27,RU,Petersburg Internet Network ltd.,1,1,20,2025-12-14 19:10:25.775000+00:00,2025-12-14 19:10:25.775000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+5.104.86.61,FI,Solteq Oyj,1,1,4,2025-09-05 08:53:40.394000+00:00,2025-09-05 08:53:40.394000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+5.129.206.24,RU,Metroset,1,1,4,2025-11-24 23:28:03.502000+00:00,2025-11-24 23:28:03.502000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+5.129.247.215,RU,Jsc timeweb,1,1,22,2026-07-08 21:53:31.725000+00:00,2026-07-08 21:53:31.725000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+5.182.26.69,UZ,Best Internet Solution Xk,1,1,22,2026-06-25 03:51:09.590000+00:00,2026-06-25 03:51:09.590000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+5.189.184.133,DE,Contabo GmbH,1,1,22,2026-04-21 01:02:28.852000+00:00,2026-04-21 01:02:28.852000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+5.202.5.172,IR,Didehban Net Company PJS,1,1,22,2026-01-29 01:08:43.111000+00:00,2026-01-29 01:08:43.111000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+5.252.53.32,DE,vanoppen.biz LLC,1,1,22,2026-05-26 08:22:30.333000+00:00,2026-05-26 08:22:30.333000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+5.39.32.197,FR,OVH SAS,1,1,22,2026-06-21 10:32:52.628000+00:00,2026-06-21 10:32:52.628000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+50.6.229.250,US,Unified Layer,1,1,26,2025-12-06 20:40:27.277000+00:00,2025-12-06 20:40:27.277000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+51.79.168.203,SG,OVH SAS,1,1,22,2026-07-05 02:16:47.418000+00:00,2026-07-05 02:16:47.418000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+52.155.248.64,IE,Microsoft Corporation,1,1,26,2026-01-11 07:52:16.916000+00:00,2026-01-11 07:52:16.916000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+58.169.56.204,AU,Telstra Corporation Ltd,1,1,2,2026-02-07 13:02:25.350000+00:00,2026-02-07 13:02:25.350000+00:00,Single,single honeypot,seatel-vsat-satcom: Single ×1
+58.182.58.128,SG,Starhub Ltd,1,1,43,2026-10-17 09:52:26.046000+00:00,2026-10-17 09:52:26.046000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+59.3.43.121,KR,Korea Telecom,1,1,4,2026-10-08 03:38:26.721000+00:00,2026-10-08 03:38:26.721000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+61.146.235.54,CN,"No.31,Jin-rong Street",1,1,4,2026-10-06 03:20:45.245000+00:00,2026-10-06 03:20:45.245000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+62.133.62.102,RU,Perviy TSOD LLC,1,1,22,2026-01-19 05:36:17.082000+00:00,2026-01-19 05:36:17.082000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+62.169.28.111,DE,,1,1,22,2026-02-25 14:38:06.989000+00:00,2026-02-25 14:38:06.989000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+62.171.140.187,GB,RM Education Ltd,1,1,22,2026-04-18 02:53:04.743000+00:00,2026-04-18 02:53:04.743000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+62.171.158.234,GB,RM Education Ltd,1,1,22,2026-01-21 00:56:48.173000+00:00,2026-01-21 00:56:48.173000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+62.171.180.237,GB,RM Education Ltd,1,1,2,2026-01-29 05:48:05.108000+00:00,2026-01-29 05:48:05.108000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+62.171.183.92,GB,RM Education Ltd,1,1,4,2025-11-27 14:56:55.507000+00:00,2025-11-27 14:56:55.507000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+62.210.92.103,FR,Scaleway SAS,1,1,22,2026-07-05 17:02:07.625000+00:00,2026-07-05 17:02:07.625000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+62.84.181.157,GB,Pro-Net Internet Services Limited,1,1,4,2025-11-16 18:39:06.629000+00:00,2025-11-16 18:39:06.629000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+62.84.181.65,GB,Pro-Net Internet Services Limited,1,1,4,2025-11-24 21:47:31.732000+00:00,2025-11-24 21:47:31.732000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+62.84.185.10,GB,Pro-Net Internet Services Limited,1,1,22,2025-12-16 04:43:28.297000+00:00,2025-12-16 04:43:28.297000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+62.84.187.115,GB,Pro-Net Internet Services Limited,1,1,22,2026-05-01 17:20:23.359000+00:00,2026-05-01 17:20:23.359000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+62.84.190.236,GB,Pro-Net Internet Services Limited,1,1,4,2025-11-26 05:10:11.394000+00:00,2025-11-26 05:10:11.394000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+64.111.93.75,CA,,1,1,22,2026-04-26 06:08:56.403000+00:00,2026-04-26 06:08:56.403000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+65.109.186.67,US,"Alabanza, Inc.",1,1,22,2026-05-29 09:21:30.250000+00:00,2026-05-29 09:21:30.250000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+65.254.80.99,US,Unified Layer,1,1,4,2025-10-14 14:28:55.896000+00:00,2025-10-14 14:28:55.896000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+66.70.136.186,CA,OVH SAS,1,1,4,2025-12-04 21:45:59.336000+00:00,2025-12-04 21:45:59.336000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+68.183.149.165,US,"DigitalOcean, LLC",1,1,3,2025-08-14 14:10:14.856000+00:00,2025-08-14 14:10:14.856000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+69.12.166.128,US,Sonoma Interconnect,1,1,35,2026-09-27 13:26:51.724000+00:00,2026-09-27 13:26:51.724000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+72.217.109.13,US,Cox Communications Inc.,1,1,4,2026-08-30 15:22:20.707000+00:00,2026-08-30 15:22:20.707000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×1
+74.48.17.25,CA,TELUS Communications Inc.,1,1,22,2026-01-06 15:43:05.380000+00:00,2026-01-06 15:43:05.380000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+74.62.9.212,US,Charter Communications Inc,1,1,2,2026-01-27 12:43:14.297000+00:00,2026-01-27 12:43:14.297000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+75.119.152.95,US,"BroadbandONE, Inc.",1,1,22,2026-05-16 06:14:16.778000+00:00,2026-05-16 06:14:16.778000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+77.105.161.28,RU,Dynamic Network Technologies Ltd,1,1,2,2026-06-01 16:39:13.878000+00:00,2026-06-01 16:39:13.878000+00:00,Single,single honeypot,Cobham-decoy #1: Single ×1
+77.110.104.150,SA,,1,1,4,2025-11-26 10:47:23.906000+00:00,2025-11-26 10:47:23.906000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+77.110.124.126,SA,,1,1,43,2026-08-07 16:43:44.313000+00:00,2026-08-07 16:43:44.313000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+77.237.70.66,IR,Respina Networks & Beyond PJSC,1,1,2,2026-10-16 18:32:29.009000+00:00,2026-10-16 18:32:29.009000+00:00,Single,single honeypot,Malware Collection Type 2: Single ×1
+78.105.154.4,GB,Sky UK Limited,1,1,22,2026-05-09 19:19:08.514000+00:00,2026-05-09 19:19:08.514000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+78.110.121.81,IR,TSTonline co.,1,1,22,2026-01-05 04:56:49.760000+00:00,2026-01-05 04:56:49.760000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+78.153.155.183,RU,LLC Company Interlan Communications,1,1,22,2026-01-17 08:40:56.016000+00:00,2026-01-17 08:40:56.016000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+78.73.54.117,SE,Telia Company AB,1,1,22,2026-05-23 00:09:10.732000+00:00,2026-05-23 00:09:10.732000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+79.143.186.213,DE,Contabo GmbH,1,1,22,2026-05-02 10:54:07.620000+00:00,2026-05-02 10:54:07.620000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+79.72.3.119,SA,Oracle Corporation,1,1,22,2026-07-20 03:11:47.031000+00:00,2026-07-20 03:11:47.031000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+8.146.229.75,CN,"Hangzhou Alibaba Advertising Co.,Ltd.",1,1,2,2026-08-29 08:51:27.305000+00:00,2026-08-29 08:51:27.305000+00:00,Single,single honeypot,Cobham-decoy #2: Single ×1
+8.213.17.246,SG,,1,1,4,2025-10-12 07:56:49.077000+00:00,2025-10-12 07:56:49.077000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+8.213.23.77,SG,,1,1,43,2026-09-27 02:58:47.389000+00:00,2026-09-27 02:58:47.389000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+80.190.82.185,DE,QSC AG,1,1,3,2025-12-08 16:59:13.294000+00:00,2025-12-08 16:59:13.294000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+81.163.30.15,RU,,1,1,18,2026-01-24 23:08:09.788000+00:00,2026-01-24 23:08:09.788000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+81.19.141.13,RU,"Information & Computing Center, Ltd.",1,1,2,2026-08-18 10:40:45.444000+00:00,2026-08-18 10:40:45.444000+00:00,Single,single honeypot,seatel-vsat-satcom-Bahrain: Single ×1
+81.19.141.31,RU,"Information & Computing Center, Ltd.",1,1,4,2025-11-26 17:42:20.017000+00:00,2025-11-26 17:42:20.017000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+81.227.62.126,SE,Telia Company AB,1,1,4,2026-10-10 18:06:53.501000+00:00,2026-10-10 18:06:53.501000+00:00,Partial,single honeypot,seatel-vsat-satcom-Bahrain: Partial ×1
+81.229.41.66,SE,Telia Company AB,1,1,22,2026-05-30 20:57:33.547000+00:00,2026-05-30 20:57:33.547000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+81.90.31.198,IQ,TigrisNet,1,1,2,2026-02-06 01:56:22.353000+00:00,2026-02-06 01:56:22.353000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+82.115.48.212,KZ,Mobile Business Solution MBS LLP,1,1,4,2025-11-23 06:28:09.684000+00:00,2025-11-23 06:28:09.684000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+82.165.175.206,FR,IONOS SE,1,1,22,2026-07-07 18:33:25.100000+00:00,2026-07-07 18:33:25.100000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+82.180.145.120,DK,Sagitta ApS,1,1,2,2026-01-19 22:05:16.689000+00:00,2026-01-19 22:05:16.689000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+82.24.64.32,GB,Virgin Media Limited,1,1,22,2026-03-14 05:54:28.488000+00:00,2026-03-14 05:54:28.488000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+82.66.138.203,FR,Free SAS,1,1,2,2026-09-14 07:49:43.467000+00:00,2026-09-14 07:49:43.467000+00:00,Single,single honeypot,Port-Authority-Gateway-Decoy #2: Single ×1
+82.66.241.245,FR,Free SAS,1,1,4,2025-11-18 14:11:38.582000+00:00,2025-11-18 14:11:38.582000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+82.97.253.89,IR,Hesabgar Pardaz Gharb Company (Private Joint Stock),1,1,43,2026-08-08 01:01:29.235000+00:00,2026-08-08 01:01:29.235000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+83.143.112.140,DE,,1,1,22,2026-06-12 22:50:56.167000+00:00,2026-06-12 22:50:56.167000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+83.143.112.7,DE,,1,1,43,2026-10-07 02:31:09.470000+00:00,2026-10-07 02:31:09.470000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+83.168.107.220,PL,Espol Sp. z o. o.,1,1,24,2025-12-08 11:27:13.747000+00:00,2025-12-08 11:27:13.747000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+83.168.89.181,PL,Espol Sp. z o. o.,1,1,22,2026-04-28 13:36:39.294000+00:00,2026-04-28 13:36:39.294000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+83.187.112.203,LT,TELE2,1,1,4,2025-10-21 02:55:26.154000+00:00,2025-10-21 02:55:26.154000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+83.240.95.76,CZ,SMART Comp. a.s.,1,1,22,2026-01-30 19:28:23.819000+00:00,2026-01-30 19:28:23.819000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+83.97.78.224,GB,Global Connectivity Solutions Llp,1,1,22,2026-07-11 22:00:51.544000+00:00,2026-07-11 22:00:51.544000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+84.247.128.226,NO,Breiband.no AS,1,1,2,2026-01-12 14:43:08.174000+00:00,2026-01-12 14:43:08.174000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+84.247.138.41,NO,Breiband.no AS,1,1,22,2026-05-07 11:45:35.320000+00:00,2026-05-07 11:45:35.320000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+84.247.150.119,NO,Breiband.no AS,1,1,22,2026-01-10 18:09:54.800000+00:00,2026-01-10 18:09:54.800000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+85.111.68.98,TR,Turk Telekom,1,1,22,2026-02-09 00:10:08.400000+00:00,2026-02-09 00:10:08.400000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+85.111.68.99,TR,Turk Telekom,1,1,22,2026-06-21 08:20:18.337000+00:00,2026-06-21 08:20:18.337000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+85.133.218.134,IR,Sepanta Communication Development Co. Ltd,1,1,2,2026-02-06 08:52:30.259000+00:00,2026-02-06 08:52:30.259000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+85.133.250.80,IR,Sepanta Communication Development Co. Ltd,1,1,4,2025-11-20 10:21:26.844000+00:00,2025-11-20 10:21:26.844000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+85.239.239.57,CZ,Casablanca INT,1,1,22,2026-06-03 22:17:50.297000+00:00,2026-06-03 22:17:50.297000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+86.109.75.160,HU,RLAN Internet Tavkozlesi Szolgaltato Kft.,1,1,22,2026-06-11 20:43:11.389000+00:00,2026-06-11 20:43:11.389000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+87.106.27.160,DE,1&1 Ionos Se,1,1,43,2026-09-15 09:39:02.360000+00:00,2026-09-15 09:39:02.360000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+87.120.126.162,BG,Yuri Jordanov Ltd.,1,1,4,2025-09-21 02:52:14.773000+00:00,2025-09-21 02:52:14.773000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+87.192.253.110,IE,Imagine Communications Group Limited,1,1,43,2026-09-12 22:48:04.585000+00:00,2026-09-12 22:48:04.585000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+87.98.188.238,FR,OVH SAS,1,1,22,2026-01-12 07:56:29.970000+00:00,2026-01-12 07:56:29.970000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+89.117.48.162,LT,SC Lithuanian Radio and TV Center,1,1,4,2025-09-12 00:42:17.120000+00:00,2025-09-12 00:42:17.120000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+89.117.57.243,LT,SC Lithuanian Radio and TV Center,1,1,4,2025-11-28 10:13:24.367000+00:00,2025-11-28 10:13:24.367000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+89.126.214.24,IE,Imagine Communications Group Limited,1,1,43,2026-10-08 17:10:58.112000+00:00,2026-10-08 17:10:58.112000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
+89.144.30.67,DE,GHOSTnet GmbH,1,1,1,2026-01-26 03:06:13.631000+00:00,2026-01-26 03:06:13.631000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+89.163.140.4,DE,myLoc managed IT AG,1,1,4,2025-11-25 23:29:57.625000+00:00,2025-11-25 23:29:57.625000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+89.185.84.23,RU,Permtelecom Ltd,1,1,24,2025-12-09 16:09:46.579000+00:00,2025-12-09 16:09:46.579000+00:00,Kit A,single honeypot,Industrial Control Systems #2: Kit A ×1
+89.23.113.138,RU,Noviton Ltd,1,1,22,2026-01-15 13:39:44.175000+00:00,2026-01-15 13:39:44.175000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+89.251.8.69,KR,,1,1,22,2026-01-09 15:40:56.450000+00:00,2026-01-09 15:40:56.450000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+89.35.130.146,RO,Intersat SRL,1,1,8,2025-12-04 20:32:48.721000+00:00,2025-12-04 20:32:48.721000+00:00,Partial,single honeypot,Electric vehicle charging process #2: Partial ×1
+89.58.49.54,DE,,1,1,22,2025-12-21 20:30:02.333000+00:00,2025-12-21 20:30:02.333000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+89.58.63.196,DE,,1,1,4,2025-11-03 10:49:24.906000+00:00,2025-11-03 10:49:24.906000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+90.84.168.147,FR,,1,1,22,2026-05-10 22:58:35.216000+00:00,2026-05-10 22:58:35.216000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+91.107.163.59,IR,Hetzner Online GmbH,1,1,22,2026-05-29 12:44:00.703000+00:00,2026-05-29 12:44:00.703000+00:00,Kit A,single honeypot,Port-Authority-Gateway-Decoy #2: Kit A ×1
+91.234.39.60,DE,DKB Service GmbH,1,1,4,2025-09-09 12:02:20.746000+00:00,2025-09-09 12:02:20.746000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+91.239.23.237,AT,Crate.io AT GmbH,1,1,20,2026-03-14 03:04:15.897000+00:00,2026-03-14 03:04:15.897000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+91.98.204.54,IR,Pars Online PJS,1,1,22,2026-02-04 00:27:10.754000+00:00,2026-02-04 00:27:10.754000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+91.99.225.153,IR,Pars Online PJS,1,1,2,2026-01-17 18:58:48.816000+00:00,2026-01-17 18:58:48.816000+00:00,Single,single honeypot,Electric-Vehicle-Charging-System: Single ×1
+92.117.89.233,DE,1&1 Versatel GmbH,1,1,41,2026-09-25 20:04:25.611000+00:00,2026-09-25 20:04:25.611000+00:00,Partial,single honeypot,Cobham-decoy #2: Partial ×1
+92.53.124.178,RU,TimeWeb Ltd.,1,1,22,2026-01-16 23:46:25.368000+00:00,2026-01-16 23:46:25.368000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+92.60.38.174,DE,netcup GmbH,1,1,4,2025-11-21 14:24:43.177000+00:00,2025-11-21 14:24:43.177000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+93.152.217.192,BG,,1,1,20,2026-01-22 19:15:15.277000+00:00,2026-01-22 19:15:15.277000+00:00,Partial,single honeypot,SCADA DNP3 S7 SERVER #2: Partial ×1
+93.94.51.60,IQ,TigrisNet,1,1,4,2025-11-30 16:26:50.586000+00:00,2025-11-30 16:26:50.586000+00:00,Single,single honeypot,Electric vehicle charging process #2: Single ×1
+94.103.188.77,RU,,1,1,22,2026-06-13 17:01:59.844000+00:00,2026-06-13 17:01:59.844000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+94.141.161.6,RU,Megasvyaz LLC,1,1,22,2025-12-12 16:03:34.641000+00:00,2025-12-12 16:03:34.641000+00:00,Kit A,single honeypot,SCADA DNP3 S7 SERVER #2: Kit A ×1
+94.182.106.36,IR,Aria Shatel Company Ltd,1,1,3,2025-08-13 15:16:42.127000+00:00,2025-08-13 15:16:42.127000+00:00,Single,single honeypot,IT Services with POP3: Single ×1
+94.183.185.90,IR,Aria Shatel Company Ltd,1,1,4,2025-11-16 17:04:48.715000+00:00,2025-11-16 17:04:48.715000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+94.72.118.42,PL,ECO TRADE Sp. z o. o,1,1,43,2026-08-15 18:28:30.379000+00:00,2026-08-15 18:28:30.379000+00:00,Kit B,single honeypot,seatel-vsat-satcom-Bahrain: Kit B ×1
+95.111.241.165,UA,Intertelecom Ltd,1,1,22,2026-02-14 20:03:37.228000+00:00,2026-02-14 20:03:37.228000+00:00,Kit A,single honeypot,seatel-vsat-satcom: Kit A ×1
+95.215.108.177,RU,Vpsville LLC,1,1,22,2026-05-29 22:32:10.518000+00:00,2026-05-29 22:32:10.518000+00:00,Kit A,single honeypot,Cobham-decoy #1: Kit A ×1
+95.217.177.89,FI,Hetzner Online GmbH,1,1,43,2026-09-22 11:27:15.623000+00:00,2026-09-22 11:27:15.623000+00:00,Kit B,single honeypot,Cobham-decoy #2: Kit B ×1
+95.38.178.202,IR,Noyan Abr Arvan Co. ( Private Joint Stock),1,1,22,2026-07-09 08:49:05.922000+00:00,2026-07-09 08:49:05.922000+00:00,Kit A,single honeypot,Cobham-decoy #2: Kit A ×1
+95.53.90.250,RU,Rostelecom,1,1,20,2026-05-23 21:21:52.455000+00:00,2026-05-23 21:21:52.455000+00:00,Partial,single honeypot,Port-Authority-Gateway-Decoy #2: Partial ×1
+95.70.142.70,TR,TurkNet Iletisim Hizmetleri A.S.,1,1,4,2025-09-24 21:15:53.279000+00:00,2025-09-24 21:15:53.279000+00:00,Single,single honeypot,Electric vehicle charging process #1: Single ×1
+95.85.245.227,CZ,METRONET s.r.o.,1,1,43,2026-09-25 03:36:56.133000+00:00,2026-09-25 03:36:56.133000+00:00,Kit B,single honeypot,Port-Authority-Gateway-Decoy #2: Kit B ×1
